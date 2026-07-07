@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T11:26:59",
-  "total_projects": 19,
+  "generated_at": "2026-07-07T12:03:49",
+  "total_projects": 20,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -541,6 +541,48 @@
         "Automated remediation plans and finding tracking",
         "Multi-tenant with RBAC and audit trail",
         "Docker-based deployment ready for any cloud"
+      ]
+    },
+    {
+      "id": "compai",
+      "name": "CompAI - AI Compliance & Governance Platform",
+      "description": "Automate SOC 2, GDPR, HIPAA, and ISO 27001 compliance with AI-powered evidence collection, control mapping, and report generation. Reduces audit prep from months to minutes.",
+      "category": "productivity",
+      "icon": "\ud83d\udd10",
+      "tags": [
+        "compliance",
+        "governance",
+        "SOC2",
+        "GDPR",
+        "HIPAA",
+        "ISO27001",
+        "AI",
+        "automation",
+        "security",
+        "open-source"
+      ],
+      "agents": 3,
+      "agents_list": [
+        "BusinessScanner \u2014 Scans for compliance automation opportunities",
+        "IdeaScorer \u2014 Scores and selects winning compliance idea",
+        "SystemReviewer \u2014 Architects full compliance platform blueprint"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/compai",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free open-source repo + $2K-10K enterprise setup/consulting",
+      "status": "built",
+      "updated_at": "2026-07-07T12:03:48+00:00",
+      "key_features": [
+        "AI-powered evidence collection and analysis",
+        "Multi-framework support (SOC2/GDPR/HIPAA/ISO27001)",
+        "Real-time compliance dashboard",
+        "Automated auditor-ready report generation",
+        "JWT + MFA authentication",
+        "Role-based access control (4 roles)",
+        "15+ REST API endpoints",
+        "Docker Compose one-command deploy"
       ]
     }
   ]
