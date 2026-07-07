@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T10:37:46",
-  "total_projects": 18,
+  "generated_at": "2026-07-07T10:51:44",
+  "total_projects": 19,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -496,6 +496,50 @@
       "monetization": "Free repo + $3K-8K setup",
       "status": "built",
       "updated_at": "2026-07-01T12:54:00+00:00"
+    },
+    {
+      "id": "complyai",
+      "name": "ComplyAI",
+      "description": "AI Compliance Automation Platform \u2014 Automate regulatory compliance for EU AI Act, HIPAA, Colorado SB 24-205, NY AI disclosure laws, and more. Multi-agent engine scans AI systems against 500+ regulatory rules, analyzes docs for gaps, generates board-ready reports, and monitors in real-time for compliance drift.",
+      "category": "security",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "compliance",
+        "regulatory",
+        "ai-governance",
+        "hipaa",
+        "eu-ai-act",
+        "security",
+        "automation",
+        "open-source"
+      ],
+      "agents": 4,
+      "agents_list": [
+        "Compliance Scanner \u2014 Scans AI systems against 500+ regulatory rules across 7+ frameworks",
+        "Document Analyzer \u2014 AI-powered gap analysis of compliance documentation and policies",
+        "Monitoring Agent \u2014 Real-time log aggregation",
+        "drift detection",
+        "and automated alerting",
+        "Report Generator \u2014 Auto-generates board-ready compliance reports with evidence trail"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/complyai",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + K-50K/yr enterprise SaaS",
+      "status": "built",
+      "updated_at": "2026-07-07T10:51:43+00:00",
+      "key_features": [
+        "Multi-regulation scanning (EU AI Act",
+        "HIPAA",
+        "SB 24-205)",
+        "AI document gap analysis and remediation",
+        "Real-time compliance drift monitoring",
+        "Board-ready PDF compliance reports",
+        "Immutable audit trails",
+        "Multi-tenant with RBAC",
+        "25+ REST API endpoints"
+      ]
     }
   ]
 }
