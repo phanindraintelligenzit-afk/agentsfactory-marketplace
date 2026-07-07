@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T12:43:33",
-  "total_projects": 21,
+  "generated_at": "2026-07-07T17:38:36",
+  "total_projects": 22,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -627,6 +627,36 @@
         "FastAPI backend with SQLite",
         "One-command Docker deploy"
       ]
+    },
+    {
+      "id": "ai-support-platform",
+      "name": "AI Support Platform",
+      "description": "Open-source multi-agent customer support platform \u2014 alternative to Zendesk/Intercom. Automates 78% of tickets with a LangGraph-powered pipeline using Claude Sonnet 4 on AWS Bedrock.",
+      "category": "customer-support",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "customer-support",
+        "multi-agent",
+        "langgraph",
+        "zendesk-alternative",
+        "claude",
+        "bedrock",
+        "open-source"
+      ],
+      "agents": 4,
+      "agents_list": [
+        "Scanner \u2014 Discovers support automation opportunities",
+        "Scorer \u2014 Evaluates customer support pain points",
+        "Architect \u2014 Designs multi-agent system",
+        "Coder \u2014 Builds the platform"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/agentsfactory-ai-support-platform",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free open-source + paid enterprise setup/support",
+      "status": "built",
+      "updated_at": "2026-07-07T17:38:35+00:00"
     }
   ]
 }
