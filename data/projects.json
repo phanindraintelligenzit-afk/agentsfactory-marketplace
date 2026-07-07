@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T12:03:49",
-  "total_projects": 20,
+  "generated_at": "2026-07-07T12:43:33",
+  "total_projects": 21,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -583,6 +583,49 @@
         "Role-based access control (4 roles)",
         "15+ REST API endpoints",
         "Docker Compose one-command deploy"
+      ]
+    },
+    {
+      "id": "ai-workflow-cleanup",
+      "name": "AI Workflow Cleanup & Optimization",
+      "description": "Open-source tool that audits n8n/Zapier/Make setups, identifies broken automations, and rebuilds them properly. AI-powered workflow health scoring, 8 issue pattern detectors, and auto-fix suggestions.",
+      "category": "productivity",
+      "icon": "\ud83e\uddf9",
+      "tags": [
+        "workflow",
+        "automation",
+        "n8n",
+        "zapier",
+        "make",
+        "fastapi",
+        "react"
+      ],
+      "agents": 3,
+      "agents_list": [
+        "Scanner Agent \u2014 Audits existing workflows and detects broken patterns",
+        "Repair Agent \u2014 Generates fix suggestions and rebuilds broken automations",
+        "Monitor Agent \u2014 Tracks workflow health and prevents future failures"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/ai-workflow-cleanup",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + K-3K setup",
+      "status": "built",
+      "updated_at": "2026-07-07T12:43:32+00:00",
+      "key_features": [
+        "8 issue pattern detectors (missing triggers",
+        "bad credentials",
+        "timeouts",
+        "rate limits",
+        "broken mappings",
+        "deprecated APIs)",
+        "Workflow health scoring (0-100)",
+        "Auto-fix suggestions",
+        "Full CRUD for workflow management",
+        "Dark-themed React dashboard",
+        "FastAPI backend with SQLite",
+        "One-command Docker deploy"
       ]
     }
   ]
