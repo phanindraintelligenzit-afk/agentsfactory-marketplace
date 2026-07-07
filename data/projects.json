@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T10:36:55",
-  "total_projects": 19,
+  "generated_at": "2026-07-07T10:37:46",
+  "total_projects": 18,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -496,31 +496,6 @@
       "monetization": "Free repo + $3K-8K setup",
       "status": "built",
       "updated_at": "2026-07-01T12:54:00+00:00"
-    },
-    {
-      "id": "test-pipeline-fix",
-      "name": "Test: Pipeline Fix Verification",
-      "description": "This is a test to verify the marketplace push works after pipeline fixes. Will be removed.",
-      "category": "other",
-      "icon": "\ud83e\uddea",
-      "tags": [
-        "test",
-        "pipeline"
-      ],
-      "agents": 1,
-      "agents_list": [
-        "Test Agent \u2014 Verifies marketplace automation"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/AgentsFactory",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free",
-      "status": "built",
-      "updated_at": "2026-07-07T10:36:53+00:00",
-      "key_features": [
-        "Test entry only"
-      ]
     }
   ]
 }
