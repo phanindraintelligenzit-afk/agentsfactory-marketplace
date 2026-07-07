@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T10:51:44",
+  "generated_at": "2026-07-07T11:26:59",
   "total_projects": 19,
   "projects": [
     {
@@ -500,45 +500,47 @@
     {
       "id": "complyai",
       "name": "ComplyAI",
-      "description": "AI Compliance Automation Platform \u2014 Automate regulatory compliance for EU AI Act, HIPAA, Colorado SB 24-205, NY AI disclosure laws, and more. Multi-agent engine scans AI systems against 500+ regulatory rules, analyzes docs for gaps, generates board-ready reports, and monitors in real-time for compliance drift.",
+      "description": "Enterprise-grade compliance automation for SMBs. AI-powered GDPR, HIPAA, and SOC2 assessments, document analysis, risk scoring, and remediation tracking \u2014 built for businesses with 5-200 employees that can't afford enterprise compliance tools.",
       "category": "security",
-      "icon": "\ud83e\udd16",
+      "icon": "\ud83d\udee1\ufe0f",
       "tags": [
         "compliance",
-        "regulatory",
-        "ai-governance",
-        "hipaa",
-        "eu-ai-act",
         "security",
+        "gdpr",
+        "hipaa",
+        "soc2",
         "automation",
-        "open-source"
+        "regtech",
+        "smb"
       ],
-      "agents": 4,
+      "agents": 5,
       "agents_list": [
-        "Compliance Scanner \u2014 Scans AI systems against 500+ regulatory rules across 7+ frameworks",
-        "Document Analyzer \u2014 AI-powered gap analysis of compliance documentation and policies",
-        "Monitoring Agent \u2014 Real-time log aggregation",
-        "drift detection",
-        "and automated alerting",
-        "Report Generator \u2014 Auto-generates board-ready compliance reports with evidence trail"
+        "Auth Agent \u2014 Handles user registration",
+        "login",
+        "and JWT token management",
+        "Assessment Agent \u2014 Runs compliance assessments with intelligent scoring and gap analysis",
+        "Document Agent \u2014 Processes uploaded documents with AI analysis against regulatory frameworks",
+        "Finding Agent \u2014 Manages compliance findings with severity tracking and remediation planning",
+        "Report Agent \u2014 Generates compliance summaries",
+        "risk heatmaps",
+        "and trend analytics"
       ],
       "github_url": "https://github.com/phanindraintelligenzit-afk/complyai",
       "stars": 0,
       "forks": 0,
       "language": "Python",
-      "monetization": "Free repo + K-50K/yr enterprise SaaS",
+      "monetization": "Free repo + 00-500/mo SaaS subscription per organization",
       "status": "built",
-      "updated_at": "2026-07-07T10:51:43+00:00",
+      "updated_at": "2026-07-07T11:26:58+00:00",
       "key_features": [
-        "Multi-regulation scanning (EU AI Act",
+        "AI-powered document analysis against regulatory frameworks",
+        "Multi-framework support (GDPR",
         "HIPAA",
-        "SB 24-205)",
-        "AI document gap analysis and remediation",
-        "Real-time compliance drift monitoring",
-        "Board-ready PDF compliance reports",
-        "Immutable audit trails",
-        "Multi-tenant with RBAC",
-        "25+ REST API endpoints"
+        "SOC2)",
+        "Real-time compliance dashboards and risk heatmaps",
+        "Automated remediation plans and finding tracking",
+        "Multi-tenant with RBAC and audit trail",
+        "Docker-based deployment ready for any cloud"
       ]
     }
   ]
