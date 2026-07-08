@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08T19:28:14",
-  "total_projects": 27,
+  "generated_at": "2026-07-08T19:34:36",
+  "total_projects": 28,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -879,6 +879,49 @@
         "GDPR-compliant human escalation",
         "n8n workflow automation",
         "Enterprise dashboard"
+      ]
+    },
+    {
+      "id": "autoflow",
+      "name": "AutoFlow \u2014 Automotive Order-to-Delivery System",
+      "description": "Open-source alternative to SAP VMS (0K-100K/yr). 5-agent LangGraph system for multi-channel order ingestion, outlet change management, product lifecycle management, SIM/device lifecycle, and cross-system consistency monitoring. Built for automotive manufacturers and dealership networks.",
+      "category": "productivity",
+      "icon": "\ud83d\ude97",
+      "tags": [
+        "automotive",
+        "workflow-automation",
+        "erp",
+        "multi-agent",
+        "langgraph",
+        "order-management",
+        "dealership",
+        "eu-gdpr"
+      ],
+      "agents": 5,
+      "agents_list": [
+        "Order Intake Agent \u2014 Multi-channel order ingestion and validation",
+        "Change Request Manager \u2014 Outlet and product change orchestration",
+        "Product Change Agent \u2014 BOM impact analysis and ECO generation",
+        "SIM Lifecycle Agent \u2014 Device and connectivity lifecycle management",
+        "Consistency Monitor Agent \u2014 Cross-system data reconciliation"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/autoflow-order-delivery",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + K-10K enterprise setup",
+      "status": "built",
+      "updated_at": "2026-07-08T19:34:35+00:00",
+      "key_features": [
+        "5-Agent LangGraph system",
+        "Multi-channel order ingestion",
+        "Outlet change management",
+        "Product lifecycle management",
+        "SIM lifecycle automation",
+        "Cross-system consistency monitoring",
+        "EU GDPR compliance layer",
+        "Real-time dashboard with analytics",
+        "Open-source with enterprise support"
       ]
     }
   ]
