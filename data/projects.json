@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08T03:49:29",
-  "total_projects": 23,
+  "generated_at": "2026-07-08T10:21:33",
+  "total_projects": 24,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -695,6 +695,50 @@
         "Real-time compliance dashboard with live control status",
         "Pre-audit simulations that catch gaps before the real auditor",
         "PDF report generation for executive summaries and audit packages"
+      ]
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian -- Open-Source Multi-Agent Observability & APM Platform",
+      "description": "Open-source alternative to Datadog/New Relic powered by a multi-agent AI engine for intelligent root cause analysis, anomaly detection, and alert correlation. Ingest traces, metrics, and logs via OpenTelemetry with ClickHouse storage and a real-time React dashboard.",
+      "category": "development",
+      "icon": "\ud83d\udd2e",
+      "tags": [
+        "observability",
+        "apm",
+        "monitoring",
+        "opentelemetry",
+        "multi-agent",
+        "ai",
+        "devtools",
+        "open-source"
+      ],
+      "agents": 5,
+      "agents_list": [
+        "Anomaly Detection Agent \u2014 Identifies metric outliers and unusual patterns in real-time using statistical analysis",
+        "Trace Analysis Agent \u2014 Analyzes distributed trace waterfalls to detect latency issues and error propagation",
+        "Log Pattern Agent \u2014 Detects error clusters and log volume anomalies across services",
+        "Alert Correlation Agent \u2014 Deduplicates and groups related alerts into cohesive incidents",
+        "Root Cause Agent \u2014 Coordinates findings from all agents and produces actionable RCA reports"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/obsidian",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free open-source repo + managed cloud hosted option",
+      "status": "built",
+      "updated_at": "2026-07-08T10:21:32+00:00",
+      "key_features": [
+        "OpenTelemetry-native ingestion for traces",
+        "metrics",
+        "and logs",
+        "Multi-agent AI engine with 5 specialized agents",
+        "ClickHouse columnar storage for high-performance queries",
+        "Real-time React dashboard with WebSocket updates",
+        "JWT authentication with OAuth2 support",
+        "Docker Compose one-command deployment",
+        "Kubernetes Helm charts for production scaling",
+        "GitHub Actions CI/CD pipeline"
       ]
     }
   ]
