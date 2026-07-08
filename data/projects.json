@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08T17:09:54",
-  "total_projects": 25,
+  "generated_at": "2026-07-08T18:42:19",
+  "total_projects": 26,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -796,6 +796,56 @@
         "no vendor lock-in",
         "React + TypeScript frontend with live dashboard",
         "Full Docker deployment with CI/CD"
+      ]
+    },
+    {
+      "id": "auto-workflow-orchestrator",
+      "name": "AutoWorkflow Orchestrator",
+      "description": "Open-source multi-agent enterprise workflow orchestration platform for automotive manufacturers and dealership networks. Replaces SAP Build Process Automation (100K+/yr) and Siemens Teamcenter (165/user/mo). Features 5 LangGraph agents for order ingestion, outlet change management, product lifecycle PNO18, connected vehicle SIM lifecycle, and cross-system consistency monitoring. Includes EU GDPR compliance layer.",
+      "category": "productivity",
+      "icon": "\ud83d\ude97",
+      "tags": [
+        "automotive",
+        "workflow-automation",
+        "erp",
+        "multi-agent",
+        "langgraph",
+        "gdpr",
+        "supply-chain"
+      ],
+      "agents": 5,
+      "agents_list": [
+        "Order Intake Agent \u2014 Multi-channel order ingestion and validation from Email",
+        "API",
+        "Portal",
+        "EDI channels",
+        "Change Manager Agent \u2014 Outlet and product change request orchestration with multi-system provisioning",
+        "Product Lifecycle Agent \u2014 PNO18-style engineering change request/order management with impact analysis",
+        "SIM Lifecycle Agent \u2014 Connected vehicle SIM provisioning",
+        "activation",
+        "suspension",
+        "and retirement automation",
+        "Consistency Monitor Agent \u2014 Cross-system data reconciliation between ERP",
+        "CRM",
+        "PLM",
+        "and DMS"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/auto-workflow-orchestrator",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + 3K-10K enterprise setup with custom agent configuration and ERP integration",
+      "status": "built",
+      "updated_at": "2026-07-08T18:42:18+00:00",
+      "key_features": [
+        "5-Agent LangGraph multi-agent system",
+        "Multi-channel order ingestion and ERP routing",
+        "Outlet/dealership change management",
+        "Product lifecycle change management (PNO18)",
+        "Connected vehicle SIM lifecycle automation",
+        "Cross-system consistency monitoring",
+        "EU GDPR compliance guard layer",
+        "Enterprise dashboard with real-time metrics"
       ]
     }
   ]
