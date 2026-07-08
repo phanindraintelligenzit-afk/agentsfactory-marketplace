@@ -1,6 +1,6 @@
 {
     "generated_at": "2026-07-08T19:00:46",
-    "total_projects": 27,
+    "total_projects": 26,
     "projects": [
         {
             "id": "ai-soc2-compliance-agent",
@@ -838,53 +838,6 @@
                 "Cross-system consistency monitoring",
                 "GDPR compliance guard layer",
                 "Enterprise dashboard with real-time metrics"
-            ]
-        },
-        {
-            "id": "smart-europe-agent",
-            "name": "Smart Europe AI Agent",
-            "description": "LangGraph-powered multi-agent customer support system for Smart Europe automotive. 6 specialized agents (Router, KB RAG, Clarification, SIM Lifecycle, Order Mgmt, Escalation) + 5 n8n automation workflows (Order Ingestion, Outlet Changes, Product/PNO18, SIM Lifecycle via Vodafone IoT, Data Consistency). GDPR-compliant with eu-central-1 data residency. Self-hosted n8n replaces SAP CPI Groovy scripts. Runs on AWS Bedrock (Claude Sonnet).",
-            "category": "automation",
-            "icon": "🚗",
-            "tags": [
-                "automotive",
-                "langgraph",
-                "ai-agent",
-                "gdpr",
-                "europe",
-                "smart-europe",
-                "bedrock",
-                "n8n",
-                "customer-support",
-                "telecom"
-            ],
-            "agents": 6,
-            "agents_list": [
-                "Router Agent — Classifies user intent and routes to correct handler using Bedrock Claude Sonnet",
-                "KB Retrieval Agent — RAG-powered knowledge base search with Bedrock Knowledge Bases",
-                "Clarification Agent — Multi-turn Q&A for ambiguous requests (SIM",
-                "orders",
-                "products)",
-                "SIM Lifecycle Agent — Manages eSIM activation/deactivation/pairing via n8n → Vodafone IoT API",
-                "Order Agent — Handles order status inquiries and modifications via n8n",
-                "Human Escalation Agent — GDPR Art. 22 compliant handoff to Smart Europe specialists"
-            ],
-            "github_url": "https://github.com/phanindraintelligenzit-afk/smart-europe-agent",
-            "stars": 0,
-            "forks": 0,
-            "language": "Python",
-            "monetization": "Enterprise delivery via IntelligenzIT — 2 Digital FTEs + n8n automation layer",
-            "status": "built",
-            "updated_at": "2026-07-08T19:00:45+00:00",
-            "key_features": [
-                "Multi-agent LangGraph orchestration (6 agents)",
-                "GDPR-compliant EU data residency (eu-central-1)",
-                "5 n8n deterministic automation workflows",
-                "Fully working demo — no external APIs needed",
-                "RAG with AWS Bedrock Knowledge Bases",
-                "SIM lifecycle via Vodafone IoT API integration",
-                "SAP CPI Groovy replacement via n8n",
-                "Production-ready FastAPI server with audit logging"
             ]
         }
     ]
