@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T17:38:36",
-  "total_projects": 22,
+  "generated_at": "2026-07-08T03:49:29",
+  "total_projects": 23,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -657,6 +657,45 @@
       "monetization": "Free open-source + paid enterprise setup/support",
       "status": "built",
       "updated_at": "2026-07-07T17:38:35+00:00"
+    },
+    {
+      "id": "opencomply",
+      "name": "OpenComply",
+      "description": "Open-source SOC 2 / GRC compliance automation platform -- a multi-agent alternative to Vanta, Drata, and Secureframe that automates evidence collection, control mapping, risk assessment, and audit preparation",
+      "category": "security",
+      "icon": "shield",
+      "tags": [
+        "compliance",
+        "soc2",
+        "grc",
+        "security",
+        "audit",
+        "open-source",
+        "multi-agent"
+      ],
+      "agents": 5,
+      "agents_list": [
+        "EvidenceCollectorAgent \u2014 Automates cloud infrastructure evidence collection from AWS GCP GitHub and Docker",
+        "ControlMapperAgent \u2014 Maps raw evidence to SOC 2 ISO 27001 and PCI control frameworks",
+        "RiskAssessorAgent \u2014 Identifies compliance gaps with automated risk severity scoring",
+        "AuditorSimulatorAgent \u2014 Runs pre-audit simulations to find gaps before real auditor review",
+        "ReportGeneratorAgent \u2014 Generates PDF reports executive summaries and audit-ready packages"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/opencomply",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free open-source repo + 2000-5000 setup and 500-1000 per month for enterprise on-prem deployment with priority support",
+      "status": "built",
+      "updated_at": "2026-07-08T03:49:28+00:00",
+      "key_features": [
+        "Multi-framework support SOC 2 ISO 27001 PCI DSS",
+        "Five specialized AI compliance agents working in concert",
+        "Automated evidence collection from cloud and CI/CD infrastructure",
+        "Real-time compliance dashboard with live control status",
+        "Pre-audit simulations that catch gaps before the real auditor",
+        "PDF report generation for executive summaries and audit packages"
+      ]
     }
   ]
 }
