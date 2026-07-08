@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08T10:21:33",
-  "total_projects": 24,
+  "generated_at": "2026-07-08T17:09:54",
+  "total_projects": 25,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -739,6 +739,63 @@
         "Docker Compose one-command deployment",
         "Kubernetes Helm charts for production scaling",
         "GitHub Actions CI/CD pipeline"
+      ]
+    },
+    {
+      "id": "dealintel",
+      "name": "DealIntel - Open Source Revenue Intelligence",
+      "description": "Open-source, multi-agent revenue intelligence platform that records, transcribes, and analyzes sales calls. 7 AI agents work together to provide call transcription, sentiment analysis, deal health scoring, coaching recommendations, and CRM sync. A direct open-source alternative to Gong.",
+      "category": "sales",
+      "icon": "dart",
+      "tags": [
+        "sales",
+        "intelligence",
+        "revenue",
+        "call-analysis",
+        "transcription",
+        "open-source",
+        "gong-alternative",
+        "multi-agent"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "Ingestion Agent \u2014 Captures calls via upload",
+        "Zoom",
+        "or Teams integration",
+        "Transcription Agent \u2014 Converts audio to searchable text via Whisper with speaker diarization",
+        "Analysis Agent \u2014 Extracts sentiment",
+        "topics",
+        "objections",
+        "competitor mentions using LLM",
+        "Deal Scoring Agent \u2014 Calculates deal health score and win probability from conversation patterns",
+        "Coaching Agent \u2014 Identifies skill gaps and generates personalized coaching recommendations",
+        "CRM Sync Agent \u2014 Pushes insights to HubSpot or Salesforce",
+        "Reporting Agent \u2014 Generates dashboards and trend analysis"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/DealIntel",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free MIT repo + Enterprise cloud at 9/seat/mo + Setup at K-5K",
+      "status": "built",
+      "updated_at": "2026-07-08T17:09:53+00:00",
+      "key_features": [
+        "Multi-agent system with 7 specialist agents",
+        "Call recording via Zoom",
+        "Teams",
+        "or direct upload",
+        "Whisper-powered transcription with speaker diarization",
+        "AI sentiment",
+        "topic",
+        "and objection analysis",
+        "Deal health scoring with win probability prediction",
+        "Personalized sales coaching recommendations",
+        "CRM sync (HubSpot and Salesforce)",
+        "Self-hosted",
+        "privacy-first",
+        "no vendor lock-in",
+        "React + TypeScript frontend with live dashboard",
+        "Full Docker deployment with CI/CD"
       ]
     }
   ]
