@@ -1,899 +1,891 @@
 {
-  "generated_at": "2026-07-08T19:00:46",
-  "total_projects": 27,
-  "projects": [
-    {
-      "id": "ai-soc2-compliance-agent",
-      "name": "AI SOC2 Compliance Agent",
-      "description": "Open-source Vanta/Drata alternative \u2014 automate SOC2 evidence collection, control mapping, and audit preparation. Track Trust Services Criteria controls, collect evidence, manage audits, and maintain security policies.",
-      "category": "security",
-      "icon": "\ud83d\udd12",
-      "tags": [
-        "SOC2",
-        "Compliance",
-        "Evidence Collection",
-        "Audit Prep"
-      ],
-      "agents": 5,
-      "agents_list": [
-        "Control Mapper \u2014 Maps SOC2 TSC criteria to your organization controls",
-        "Evidence Collector \u2014 Automated evidence gathering from integrations",
-        "Audit Manager \u2014 Tracks audit progress and manages auditor engagement",
-        "Policy Generator \u2014 Creates and maintains security policies",
-        "Integration Hub \u2014 Connects to AWS, GCP, GitHub, Okta, and 300+ tools"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/ai-soc2-compliance-agent",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + $2K-5K setup",
-      "status": "built",
-      "updated_at": "2026-06-29T17:34:37+00:00"
-    },
-    {
-      "id": "ai-competitive-intelligence-agent",
-      "name": "AI Competitive Intelligence Agent",
-      "description": "Open-source Crayon/Klue alternative \u2014 monitor competitor signals 24/7, auto-generate battlecards with AI, and build competitive briefings. Track website changes, pricing updates, job postings, reviews, and social mentions across all your competitors.",
-      "category": "marketing",
-      "icon": "\ud83c\udfaf",
-      "tags": [
-        "Competitive Intel",
-        "Battlecards",
-        "Signal Detection",
-        "AI-Powered"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Signal Detector \u2014 Scans competitor websites, pricing pages, job boards, reviews, and social media",
-        "Battlecard Generator \u2014 Analyzes signals and auto-generates battlecards with strengths, weaknesses, win strategies",
-        "Briefing Builder \u2014 Compiles daily/weekly competitive intelligence digests",
-        "Background Worker \u2014 Continuous scanning with configurable intervals"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/ai-competitive-intelligence-agent",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + $500-2K/mo setup",
-      "status": "built",
-      "updated_at": "2026-06-29T17:03:01+00:00"
-    },
-    {
-      "id": "healthcare-prior-auth",
-      "name": "Healthcare Prior Auth",
-      "description": "Automate prior authorization workflows \u2014 extract patient data from EHR systems, check insurer requirements, flag denial risks, and generate complete submission packages. Built as a 4-agent multi-agent system using LangGraph.",
-      "category": "healthcare",
-      "icon": "\ud83c\udfe5",
-      "tags": [
-        "4 Agents",
-        "HIPAA Ready",
-        "EHR Integration",
-        "LangGraph"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Auth Intake Agent \u2014 Extracts patient data from EHR/HL7 FHIR feeds",
-        "Requirement Checker \u2014 Validates insurer-specific criteria and coverage rules",
-        "Denial Risk Scorer \u2014 Flags high-risk submissions before they get rejected",
-        "Documentation Generator \u2014 Assembles complete prior auth submission packages"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/healthcare-prior-auth",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + $2K-5K setup",
-      "status": "built",
-      "updated_at": "2026-06-22T07:30:00+00:00"
-    },
-    {
-      "id": "real-estate-lead-gen",
-      "name": "Real Estate Lead Gen",
-      "description": "AI-powered lead generation team \u2014 scouts markets, qualifies leads from expired listings and pre-foreclosures, scores prospects using smart criteria, and generates personalized outreach campaigns. Multi-agent system built with LangGraph.",
-      "category": "marketing",
-      "icon": "\ud83c\udfe0",
-      "tags": [
-        "4 Agents",
-        "Market Analysis",
-        "Lead Scoring",
-        "Outreach"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Prospecting Agent \u2014 Scans expired listings, pre-foreclosures, and off-market signals",
-        "Lead Qualifier \u2014 Filters and scores leads based on customizable criteria",
-        "Outreach Drafter \u2014 Generates personalized email/call scripts per lead",
-        "Pipeline Tracker \u2014 Tracks lead status and follow-up schedules"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/real-estate-lead-gen",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + $2K-5K setup",
-      "status": "built",
-      "updated_at": "2026-06-22T07:30:00+00:00"
-    },
-    {
-      "id": "ecommerce-product-optimizer",
-      "name": "E-Commerce Product Optimizer",
-      "description": "Automate product listing optimization for e-commerce stores with AI-powered SEO, competitive pricing, review management, and conversion optimization. 4-agent multi-agent system that handles the full product lifecycle.",
-      "category": "marketing",
-      "icon": "\ud83d\uded2",
-      "tags": [
-        "4 Agents",
-        "SEO",
-        "Conversion",
-        "Pricing"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Product Analyzer \u2014 Evaluates listing quality and competitor positioning",
-        "Content Optimizer \u2014 Rewrites titles, descriptions, and keywords for SEO",
-        "Pricing Agent \u2014 Monitors competitor pricing and recommends optimal prices",
-        "Review Manager \u2014 Tracks reviews, flags negatives, suggests responses"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/ecommerce-product-optimizer",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + $1K-3K setup",
-      "status": "built",
-      "updated_at": "2026-06-22T07:30:00+00:00"
-    },
-    {
-      "id": "legal-contract-review",
-      "name": "Legal Contract Review",
-      "description": "Parse contracts, identify redlines and risky clauses, assess risk exposure, generate negotiation summaries, and ensure GDPR/SOC2 compliance. Multi-agent system for legal teams.",
-      "category": "legal",
-      "icon": "\u2696\ufe0f",
-      "tags": [
-        "4 Agents",
-        "Risk Matrix",
-        "GDPR / SOC2",
-        "Compliance"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Contract Parser \u2014 Extracts clauses, terms, and obligations from contracts",
-        "Risk Assessor \u2014 Flags unusual or risky clauses with severity scoring",
-        "Compliance Checker \u2014 Validates against GDPR, SOC2, and industry standards",
-        "Summary Generator \u2014 Creates negotiation briefs and redline summaries"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/legal-contract-review",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + $3K-5K setup",
-      "status": "built",
-      "updated_at": "2026-06-22T07:30:00+00:00"
-    },
-    {
-      "id": "hr-operations",
-      "name": "HR Operations",
-      "description": "Resume screening, candidate scoring, personalized outreach, onboarding package generation, and compliance tracking. Multi-agent system for HR teams and recruiters.",
-      "category": "productivity",
-      "icon": "\ud83d\udc65",
-      "tags": [
-        "4 Agents",
-        "Screening",
-        "Onboarding",
-        "Compliance"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Resume Screener \u2014 Parses resumes, extracts skills, ranks candidates",
-        "Candidate Scorer \u2014 Evaluates fit using customizable scoring criteria",
-        "Outreach Agent \u2014 Generates personalized outreach messages per candidate",
-        "Onboarding Agent \u2014 Creates onboarding packages and compliance checklists"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/hr-operations",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + $2K-4K setup",
-      "status": "built",
-      "updated_at": "2026-06-22T07:30:00+00:00"
-    },
-    {
-      "id": "ai-agent-sandbox-governance",
-      "name": "AI Agent Sandbox & Governance",
-      "description": "Open-source governance layer for AI agents \u2014 defines permission boundaries, sandboxes execution, and audits every tool call. YAML-defined policies, REST API, tamper-proof audit logs.",
-      "category": "security",
-      "icon": "\ud83d\udd10",
-      "tags": [
-        "Security",
-        "Governance",
-        "Open Source",
-        "Python",
-        "FastAPI"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Policy Engine \u2014 Enforce YAML-defined permission policies (filesystem, network, commands)",
-        "Sandbox Runner \u2014 Execute agent actions within defined boundaries",
-        "Audit Logger \u2014 Tamper-proof audit trail with hash chain verification",
-        "API Server \u2014 REST API for CI/CD pipeline integration"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/ai-agent-sandbox-governance",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Open-source MIT + Enterprise pricing",
-      "status": "built",
-      "updated_at": "2026-06-26T12:00:00+00:00"
-    },
-    {
-      "id": "estonia-e-residency-compliance-automator",
-      "name": "Estonia e-Residency Compliance",
-      "description": "Automate compliance workflows for Estonia e-Residency applications \u2014 document parsing, risk checks, status tracking. Multi-agent system for legal teams.",
-      "category": "legal",
-      "icon": "\u2696\ufe0f",
-      "tags": [
-        "Compliance",
-        "GDPR",
-        "Legal",
-        "Multi-Agent"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Document Parser \u2014 Extract data from e-Residency application documents",
-        "Risk Checker \u2014 Flag compliance risks and missing requirements",
-        "Status Tracker \u2014 Monitor application status and deadlines",
-        "Report Generator \u2014 Create compliance reports and summaries"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/estonia-e-residency-compliance-automator",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + $2K-4K setup",
-      "status": "built",
-      "updated_at": "2026-06-25T19:59:00+00:00"
-    },
-    {
-      "id": "ai-app-store-screenshot-generator",
-      "name": "AI App Store Screenshot Generator",
-      "description": "Automatically generate 800+ localized App Store and Google Play screenshots from a single design template. AI-powered localization across 39+ languages, 3 device sizes, and custom brand kits. Export directly to App Store Connect and Play Console.",
-      "category": "marketing",
-      "icon": "\ud83c\udfaf",
-      "tags": [
-        "Marketing",
-        "App Store",
-        "Localization",
-        "Automation",
-        "Python"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Design Agent \u2014 Generates template layouts and brand-consistent designs",
-        "Localization Agent \u2014 AI-powered translation across 39+ languages with context awareness",
-        "Export Agent \u2014 Renders screenshots at all device sizes and uploads to stores",
-        "QA Agent \u2014 Validates screenshots against platform guidelines and brand consistency"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/ai-app-store-screenshot-generator",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + $1K-2K setup",
-      "status": "built",
-      "updated_at": "2026-06-28T14:25:00+00:00"
-    },
-    {
-      "id": "-i-built-an-ai-team-that-finds-leads-decision-make",
-      "name": "AI Team That Finds Leads & Writes Outreach",
-      "description": "Multi-agent system that finds leads, identifies decision makers, and writes personalized outreach while you sleep. Autonomous lead gen team.",
-      "category": "marketing",
-      "tags": [
-        "ai-agent",
-        "lead-generation",
-        "outreach",
-        "automation"
-      ],
-      "source_url": "https://github.com/phanindraintelligenzit-afk/-i-built-an-ai-team-that-finds-leads-decision-make",
-      "github_url": "https://github.com/phanindraintelligenzit-afk/-i-built-an-ai-team-that-finds-leads-decision-make/tree/main",
-      "status": "published",
-      "date_added": "2026-06-28",
-      "agents": 4,
-      "agents_list": [
-        "Lead Scout \u2014 finds prospects matching ICP",
-        "Decision Maker Finder \u2014 identifies key contacts",
-        "Outreach Writer \u2014 crafts personalized messages",
-        "Follow-up Manager \u2014 schedules and tracks replies"
-      ],
-      "key_features": [
-        "Autonomous lead discovery from multiple sources",
-        "Decision maker identification with role mapping",
-        "Personalized outreach message generation",
-        "Multi-channel delivery (email, LinkedIn)",
-        "Response tracking and follow-up scheduling"
-      ],
-      "icon": "\ud83c\udfaf"
-    },
-    {
-      "id": "ai-invoice-reconciliation-agent",
-      "name": "AI Invoice Reconciliation Agent",
-      "description": "Autonomous multi-agent system that matches invoices to purchase orders, flags discrepancies, and routes exceptions for approval. Eliminates manual AP workflows.",
-      "category": "finance",
-      "icon": "\ud83d\udcb0",
-      "tags": [
-        "Finance",
-        "4 Agents",
-        "Invoice Matching",
-        "AP Automation"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Document Parser \u2014 Extracts line items from invoices (PDF, email, EDI)",
-        "PO Matcher \u2014 Matches invoices to purchase orders and receipts",
-        "Discrepancy Detector \u2014 Flags price mismatches, missing items, duplicates",
-        "Approval Router \u2014 Routes exceptions to correct approver based on rules"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/ai-invoice-reconciliation-agent",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + K-5K setup",
-      "status": "built",
-      "updated_at": "2026-06-29T00:28:00+00:00"
-    },
-    {
-      "id": "mcp-server-for-google-ads-meta-ads-ga4",
-      "name": "MCP Server for Google Ads, Meta Ads & GA4",
-      "description": "Production-ready MCP server that connects Claude, Cursor, and Codex to your Google Ads, Meta Ads, and GA4 accounts. Query campaigns, pull performance data, get AI-powered insights.",
-      "category": "marketing",
-      "icon": "\ud83c\udfaf",
-      "tags": [
-        "Marketing",
-        "MCP Server",
-        "Google Ads",
-        "Meta Ads",
-        "GA4"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Campaign Reader \u2014 Pulls campaign data from Google Ads & Meta APIs",
-        "Performance Analyzer \u2014 Identifies underperforming campaigns and budget waste",
-        "Insight Generator \u2014 AI-powered recommendations for optimization",
-        "Report Builder \u2014 Generates weekly performance reports automatically"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/mcp-server-for-google-ads-meta-ads-ga4",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + K-3K setup",
-      "status": "built",
-      "updated_at": "2026-06-29T00:28:00+00:00"
-    },
-    {
-      "id": "reportgenie-ai",
-      "name": "ReportGenie AI",
-      "description": "Automated multi-source report generation with AI-powered insights. Connect Stripe, HubSpot, Google Analytics, Jira, CSV, PostgreSQL, MySQL and generate executive reports with narrative insights and actionable recommendations.",
-      "category": "marketing",
-      "tags": [
-        "reporting",
-        "analytics",
-        "ai",
-        "automation",
-        "dashboards",
-        "insights"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/AIdentify/tree/gh-pages/projects/reportgenie-ai",
-      "status": "published",
-      "created_at": "2026-06-29T03:46:09.829881",
-      "features": [
-        "Multi-source data connectors (Stripe, HubSpot, GA, Jira, CSV, API)",
-        "AI-generated narrative insights and recommendations",
-        "Executive summary, financial, marketing, engineering templates",
-        "Dark-themed dashboard with real-time report generation",
-        "REST API with async FastAPI backend",
-        "Docker + docker-compose deployment"
-      ]
-    },
-    {
-      "id": "nanoeuler-gpt-2-scale-model-in-pure-ccuda-from-scr",
-      "name": "NanoEuler \u2014 GPT-2 Scale Model in Pure C/CUDA",
-      "description": "Open-source GPT-2 scale language model implemented from scratch in pure C and CUDA. Train and inference without heavy frameworks \u2014 minimal dependencies, maximum performance.",
-      "category": "other",
-      "tags": [
-        "ai",
-        "llm",
-        "cuda",
-        "c",
-        "from-scratch",
-        "gpt",
-        "training",
-        "inference"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/nanoeuler-gpt-2-scale-model-in-pure-ccuda-from-scr",
-      "status": "published",
-      "created_at": "2026-06-30T06:09:29.872342+05:30",
-      "features": [
-        "Pure C/CUDA implementation \u2014 no PyTorch/TensorFlow dependencies",
-        "GPT-2 architecture from scratch with multi-head attention",
-        "Custom CUDA kernels for matrix operations",
-        "Training pipeline with data loading and checkpointing",
-        "Inference engine with token generation",
-        "REST API for model serving"
-      ]
-    },
-    {
-      "id": "code-shield-sast",
-      "name": "CodeShield SAST",
-      "description": "Open-source Snyk/Semgrep alternative \u2014 AI-powered static application security testing with 25+ detection rules covering OWASP Top 10. Scan code snippets or repos, get risk scores and remediation guidance.",
-      "category": "security",
-      "icon": "\ud83d\udee1\ufe0f",
-      "tags": [
-        "SAST",
-        "Security Scanning",
-        "OWASP",
-        "Code Analysis",
-        "DevSecOps"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Pattern Engine \u2014 25+ regex-based detection rules for SQLi, XSS, SSRF, and more",
-        "Risk Scorer \u2014 Calculates 0-100 risk score weighted by severity",
-        "Remediation Advisor \u2014 Provides fix guidance for every finding",
-        "Scan Orchestrator \u2014 Manages scan lifecycle and result persistence"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/code-shield-sast",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free self-hosted + $200-500/mo managed",
-      "status": "built",
-      "updated_at": "2026-06-30T09:00:00+00:00"
-    },
-    {
-      "id": "chorus-replacement-ai-sales-conversation-intellige",
-      "name": "Chorus Replacement - AI Sales Conversation Intelligence",
-      "description": "Open-source Chorus alternative - AI sales conversation intelligence that researches prospects, records calls, transcribes, analyzes sentiment, extracts insights, and coaches reps. Multi-agent: Researcher\u2192Recorder\u2192Analyzer\u2192Coach. Beats Chorus $8K/yr per-seat pricing.",
-      "category": "marketing",
-      "icon": "\ud83c\udfaf",
-      "tags": [
-        "Sales Intelligence",
-        "Conversation Analytics",
-        "Call Recording",
-        "AI Coaching",
-        "Multi-Agent"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Research Agent \u2014 Pre-call prospect research and context gathering",
-        "Recorder Agent \u2014 Call recording, transcription, and speaker diarization",
-        "Analyzer Agent \u2014 Sentiment analysis, topic extraction, competitive mentions",
-        "Coach Agent \u2014 Real-time coaching cues and post-call improvement feedback"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/chorus-replacement-ai-sales-conversation-intellige",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + $2K-5K setup",
-      "status": "built",
-      "updated_at": "2026-07-01T12:53:00+00:00"
-    },
-    {
-      "id": "pendo-replacement-ai-product-analytics-agent-inges",
-      "name": "Pendo Replacement - AI Product Analytics Agent",
-      "description": "Open-source Pendo alternative - AI product analytics agent that ingests events, auto-cohorts users, surfaces insights, tracks feature adoption, and predicts churn. Multi-agent: Ingest\u2192Cohorter\u2192InsightSurfer\u2192Predictor. Beats Pendo $12K/yr proprietary SDK pricing.",
-      "category": "marketing",
-      "icon": "\ud83c\udfaf",
-      "tags": [
-        "Product Analytics",
-        "Event Ingestion",
-        "Cohort Analysis",
-        "Churn Prediction",
-        "Multi-Agent"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Ingest Agent \u2014 Event ingestion, validation, and schema normalization",
-        "Cohorter Agent \u2014 Auto-cohort users by behavior, acquisition, features",
-        "InsightSurfer Agent \u2014 Surface adoption trends, friction points, opportunities",
-        "Predictor Agent \u2014 Churn risk scoring and retention forecasting"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/pendo-replacement-ai-product-analytics-agent-inges",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + $3K-8K setup",
-      "status": "built",
-      "updated_at": "2026-07-01T12:54:00+00:00"
-    },
-    {
-      "id": "complyai",
-      "name": "ComplyAI",
-      "description": "Enterprise-grade compliance automation for SMBs. AI-powered GDPR, HIPAA, and SOC2 assessments, document analysis, risk scoring, and remediation tracking \u2014 built for businesses with 5-200 employees that can't afford enterprise compliance tools.",
-      "category": "security",
-      "icon": "\ud83d\udee1\ufe0f",
-      "tags": [
-        "compliance",
-        "security",
-        "gdpr",
-        "hipaa",
-        "soc2",
-        "automation",
-        "regtech",
-        "smb"
-      ],
-      "agents": 5,
-      "agents_list": [
-        "Auth Agent \u2014 Handles user registration",
-        "login",
-        "and JWT token management",
-        "Assessment Agent \u2014 Runs compliance assessments with intelligent scoring and gap analysis",
-        "Document Agent \u2014 Processes uploaded documents with AI analysis against regulatory frameworks",
-        "Finding Agent \u2014 Manages compliance findings with severity tracking and remediation planning",
-        "Report Agent \u2014 Generates compliance summaries",
-        "risk heatmaps",
-        "and trend analytics"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/complyai",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + 00-500/mo SaaS subscription per organization",
-      "status": "built",
-      "updated_at": "2026-07-07T11:26:58+00:00",
-      "key_features": [
-        "AI-powered document analysis against regulatory frameworks",
-        "Multi-framework support (GDPR",
-        "HIPAA",
-        "SOC2)",
-        "Real-time compliance dashboards and risk heatmaps",
-        "Automated remediation plans and finding tracking",
-        "Multi-tenant with RBAC and audit trail",
-        "Docker-based deployment ready for any cloud"
-      ]
-    },
-    {
-      "id": "compai",
-      "name": "CompAI - AI Compliance & Governance Platform",
-      "description": "Automate SOC 2, GDPR, HIPAA, and ISO 27001 compliance with AI-powered evidence collection, control mapping, and report generation. Reduces audit prep from months to minutes.",
-      "category": "productivity",
-      "icon": "\ud83d\udd10",
-      "tags": [
-        "compliance",
-        "governance",
-        "SOC2",
-        "GDPR",
-        "HIPAA",
-        "ISO27001",
-        "AI",
-        "automation",
-        "security",
-        "open-source"
-      ],
-      "agents": 3,
-      "agents_list": [
-        "BusinessScanner \u2014 Scans for compliance automation opportunities",
-        "IdeaScorer \u2014 Scores and selects winning compliance idea",
-        "SystemReviewer \u2014 Architects full compliance platform blueprint"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/compai",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free open-source repo + $2K-10K enterprise setup/consulting",
-      "status": "built",
-      "updated_at": "2026-07-07T12:03:48+00:00",
-      "key_features": [
-        "AI-powered evidence collection and analysis",
-        "Multi-framework support (SOC2/GDPR/HIPAA/ISO27001)",
-        "Real-time compliance dashboard",
-        "Automated auditor-ready report generation",
-        "JWT + MFA authentication",
-        "Role-based access control (4 roles)",
-        "15+ REST API endpoints",
-        "Docker Compose one-command deploy"
-      ]
-    },
-    {
-      "id": "ai-workflow-cleanup",
-      "name": "AI Workflow Cleanup & Optimization",
-      "description": "Open-source tool that audits n8n/Zapier/Make setups, identifies broken automations, and rebuilds them properly. AI-powered workflow health scoring, 8 issue pattern detectors, and auto-fix suggestions.",
-      "category": "productivity",
-      "icon": "\ud83e\uddf9",
-      "tags": [
-        "workflow",
-        "automation",
-        "n8n",
-        "zapier",
-        "make",
-        "fastapi",
-        "react"
-      ],
-      "agents": 3,
-      "agents_list": [
-        "Scanner Agent \u2014 Audits existing workflows and detects broken patterns",
-        "Repair Agent \u2014 Generates fix suggestions and rebuilds broken automations",
-        "Monitor Agent \u2014 Tracks workflow health and prevents future failures"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/ai-workflow-cleanup",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + K-3K setup",
-      "status": "built",
-      "updated_at": "2026-07-07T12:43:32+00:00",
-      "key_features": [
-        "8 issue pattern detectors (missing triggers",
-        "bad credentials",
-        "timeouts",
-        "rate limits",
-        "broken mappings",
-        "deprecated APIs)",
-        "Workflow health scoring (0-100)",
-        "Auto-fix suggestions",
-        "Full CRUD for workflow management",
-        "Dark-themed React dashboard",
-        "FastAPI backend with SQLite",
-        "One-command Docker deploy"
-      ]
-    },
-    {
-      "id": "ai-support-platform",
-      "name": "AI Support Platform",
-      "description": "Open-source multi-agent customer support platform \u2014 alternative to Zendesk/Intercom. Automates 78% of tickets with a LangGraph-powered pipeline using Claude Sonnet 4 on AWS Bedrock.",
-      "category": "customer-support",
-      "icon": "\ud83e\udd16",
-      "tags": [
-        "customer-support",
-        "multi-agent",
-        "langgraph",
-        "zendesk-alternative",
-        "claude",
-        "bedrock",
-        "open-source"
-      ],
-      "agents": 4,
-      "agents_list": [
-        "Scanner \u2014 Discovers support automation opportunities",
-        "Scorer \u2014 Evaluates customer support pain points",
-        "Architect \u2014 Designs multi-agent system",
-        "Coder \u2014 Builds the platform"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/agentsfactory-ai-support-platform",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free open-source + paid enterprise setup/support",
-      "status": "built",
-      "updated_at": "2026-07-07T17:38:35+00:00"
-    },
-    {
-      "id": "opencomply",
-      "name": "OpenComply",
-      "description": "Open-source SOC 2 / GRC compliance automation platform -- a multi-agent alternative to Vanta, Drata, and Secureframe that automates evidence collection, control mapping, risk assessment, and audit preparation",
-      "category": "security",
-      "icon": "shield",
-      "tags": [
-        "compliance",
-        "soc2",
-        "grc",
-        "security",
-        "audit",
-        "open-source",
-        "multi-agent"
-      ],
-      "agents": 5,
-      "agents_list": [
-        "EvidenceCollectorAgent \u2014 Automates cloud infrastructure evidence collection from AWS GCP GitHub and Docker",
-        "ControlMapperAgent \u2014 Maps raw evidence to SOC 2 ISO 27001 and PCI control frameworks",
-        "RiskAssessorAgent \u2014 Identifies compliance gaps with automated risk severity scoring",
-        "AuditorSimulatorAgent \u2014 Runs pre-audit simulations to find gaps before real auditor review",
-        "ReportGeneratorAgent \u2014 Generates PDF reports executive summaries and audit-ready packages"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/opencomply",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free open-source repo + 2000-5000 setup and 500-1000 per month for enterprise on-prem deployment with priority support",
-      "status": "built",
-      "updated_at": "2026-07-08T03:49:28+00:00",
-      "key_features": [
-        "Multi-framework support SOC 2 ISO 27001 PCI DSS",
-        "Five specialized AI compliance agents working in concert",
-        "Automated evidence collection from cloud and CI/CD infrastructure",
-        "Real-time compliance dashboard with live control status",
-        "Pre-audit simulations that catch gaps before the real auditor",
-        "PDF report generation for executive summaries and audit packages"
-      ]
-    },
-    {
-      "id": "obsidian",
-      "name": "Obsidian -- Open-Source Multi-Agent Observability & APM Platform",
-      "description": "Open-source alternative to Datadog/New Relic powered by a multi-agent AI engine for intelligent root cause analysis, anomaly detection, and alert correlation. Ingest traces, metrics, and logs via OpenTelemetry with ClickHouse storage and a real-time React dashboard.",
-      "category": "development",
-      "icon": "\ud83d\udd2e",
-      "tags": [
-        "observability",
-        "apm",
-        "monitoring",
-        "opentelemetry",
-        "multi-agent",
-        "ai",
-        "devtools",
-        "open-source"
-      ],
-      "agents": 5,
-      "agents_list": [
-        "Anomaly Detection Agent \u2014 Identifies metric outliers and unusual patterns in real-time using statistical analysis",
-        "Trace Analysis Agent \u2014 Analyzes distributed trace waterfalls to detect latency issues and error propagation",
-        "Log Pattern Agent \u2014 Detects error clusters and log volume anomalies across services",
-        "Alert Correlation Agent \u2014 Deduplicates and groups related alerts into cohesive incidents",
-        "Root Cause Agent \u2014 Coordinates findings from all agents and produces actionable RCA reports"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/obsidian",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free open-source repo + managed cloud hosted option",
-      "status": "built",
-      "updated_at": "2026-07-08T10:21:32+00:00",
-      "key_features": [
-        "OpenTelemetry-native ingestion for traces",
-        "metrics",
-        "and logs",
-        "Multi-agent AI engine with 5 specialized agents",
-        "ClickHouse columnar storage for high-performance queries",
-        "Real-time React dashboard with WebSocket updates",
-        "JWT authentication with OAuth2 support",
-        "Docker Compose one-command deployment",
-        "Kubernetes Helm charts for production scaling",
-        "GitHub Actions CI/CD pipeline"
-      ]
-    },
-    {
-      "id": "dealintel",
-      "name": "DealIntel - Open Source Revenue Intelligence",
-      "description": "Open-source, multi-agent revenue intelligence platform that records, transcribes, and analyzes sales calls. 7 AI agents work together to provide call transcription, sentiment analysis, deal health scoring, coaching recommendations, and CRM sync. A direct open-source alternative to Gong.",
-      "category": "sales",
-      "icon": "dart",
-      "tags": [
-        "sales",
-        "intelligence",
-        "revenue",
-        "call-analysis",
-        "transcription",
-        "open-source",
-        "gong-alternative",
-        "multi-agent"
-      ],
-      "agents": 7,
-      "agents_list": [
-        "Ingestion Agent \u2014 Captures calls via upload",
-        "Zoom",
-        "or Teams integration",
-        "Transcription Agent \u2014 Converts audio to searchable text via Whisper with speaker diarization",
-        "Analysis Agent \u2014 Extracts sentiment",
-        "topics",
-        "objections",
-        "competitor mentions using LLM",
-        "Deal Scoring Agent \u2014 Calculates deal health score and win probability from conversation patterns",
-        "Coaching Agent \u2014 Identifies skill gaps and generates personalized coaching recommendations",
-        "CRM Sync Agent \u2014 Pushes insights to HubSpot or Salesforce",
-        "Reporting Agent \u2014 Generates dashboards and trend analysis"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/DealIntel",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free MIT repo + Enterprise cloud at 9/seat/mo + Setup at K-5K",
-      "status": "built",
-      "updated_at": "2026-07-08T17:09:53+00:00",
-      "key_features": [
-        "Multi-agent system with 7 specialist agents",
-        "Call recording via Zoom",
-        "Teams",
-        "or direct upload",
-        "Whisper-powered transcription with speaker diarization",
-        "AI sentiment",
-        "topic",
-        "and objection analysis",
-        "Deal health scoring with win probability prediction",
-        "Personalized sales coaching recommendations",
-        "CRM sync (HubSpot and Salesforce)",
-        "Self-hosted",
-        "privacy-first",
-        "no vendor lock-in",
-        "React + TypeScript frontend with live dashboard",
-        "Full Docker deployment with CI/CD"
-      ]
-    },
-    {
-      "id": "auto-workflow-orchestrator",
-      "name": "AutoWorkflow Orchestrator",
-      "description": "Open-source multi-agent enterprise workflow orchestration platform for automotive manufacturers and dealership networks. Replaces SAP Build Process Automation (100K+/yr) and Siemens Teamcenter (165/user/mo). Features 5 LangGraph agents for order ingestion, outlet change management, product lifecycle PNO18, connected vehicle SIM lifecycle, and cross-system consistency monitoring. Includes EU GDPR compliance layer.",
-      "category": "productivity",
-      "icon": "\ud83d\ude97",
-      "tags": [
-        "automotive",
-        "workflow-automation",
-        "erp",
-        "multi-agent",
-        "langgraph",
-        "gdpr",
-        "supply-chain"
-      ],
-      "agents": 5,
-      "agents_list": [
-        "Order Intake Agent \u2014 Multi-channel order ingestion and validation from Email",
-        "API",
-        "Portal",
-        "EDI channels",
-        "Change Manager Agent \u2014 Outlet and product change request orchestration with multi-system provisioning",
-        "Product Lifecycle Agent \u2014 PNO18-style engineering change request/order management with impact analysis",
-        "SIM Lifecycle Agent \u2014 Connected vehicle SIM provisioning",
-        "activation",
-        "suspension",
-        "and retirement automation",
-        "Consistency Monitor Agent \u2014 Cross-system data reconciliation between ERP",
-        "CRM",
-        "PLM",
-        "and DMS"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/auto-workflow-orchestrator",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Free repo + 3K-10K enterprise setup with custom agent configuration and ERP integration",
-      "status": "built",
-      "updated_at": "2026-07-08T18:42:18+00:00",
-      "key_features": [
-        "5-Agent LangGraph multi-agent system",
-        "Multi-channel order ingestion and ERP routing",
-        "Outlet/dealership change management",
-        "Product lifecycle change management (PNO18)",
-        "Connected vehicle SIM lifecycle automation",
-        "Cross-system consistency monitoring",
-        "EU GDPR compliance guard layer",
-        "Enterprise dashboard with real-time metrics"
-      ]
-    },
-    {
-      "id": "smart-europe-agent",
-      "name": "Smart Europe AI Agent",
-      "description": "LangGraph-powered multi-agent customer support system for Smart Europe automotive. 6 specialized agents (Router, KB RAG, Clarification, SIM Lifecycle, Order Mgmt, Escalation) + 5 n8n automation workflows (Order Ingestion, Outlet Changes, Product/PNO18, SIM Lifecycle via Vodafone IoT, Data Consistency). GDPR-compliant with eu-central-1 data residency. Self-hosted n8n replaces SAP CPI Groovy scripts. Runs on AWS Bedrock (Claude Sonnet).",
-      "category": "automation",
-      "icon": "\ud83d\ude97",
-      "tags": [
-        "automotive",
-        "langgraph",
-        "ai-agent",
-        "gdpr",
-        "europe",
-        "smart-europe",
-        "bedrock",
-        "n8n",
-        "customer-support",
-        "telecom"
-      ],
-      "agents": 6,
-      "agents_list": [
-        "Router Agent \u2014 Classifies user intent and routes to correct handler using Bedrock Claude Sonnet",
-        "KB Retrieval Agent \u2014 RAG-powered knowledge base search with Bedrock Knowledge Bases",
-        "Clarification Agent \u2014 Multi-turn Q&A for ambiguous requests (SIM",
-        "orders",
-        "products)",
-        "SIM Lifecycle Agent \u2014 Manages eSIM activation/deactivation/pairing via n8n \u2192 Vodafone IoT API",
-        "Order Agent \u2014 Handles order status inquiries and modifications via n8n",
-        "Human Escalation Agent \u2014 GDPR Art. 22 compliant handoff to Smart Europe specialists"
-      ],
-      "github_url": "https://github.com/phanindraintelligenzit-afk/smart-europe-agent",
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "monetization": "Enterprise delivery via IntelligenzIT \u2014 2 Digital FTEs + n8n automation layer",
-      "status": "built",
-      "updated_at": "2026-07-08T19:00:45+00:00",
-      "key_features": [
-        "Multi-agent LangGraph orchestration (6 agents)",
-        "GDPR-compliant EU data residency (eu-central-1)",
-        "5 n8n deterministic automation workflows",
-        "Fully working demo \u2014 no external APIs needed",
-        "RAG with AWS Bedrock Knowledge Bases",
-        "SIM lifecycle via Vodafone IoT API integration",
-        "SAP CPI Groovy replacement via n8n",
-        "Production-ready FastAPI server with audit logging"
-      ]
-    }
-  ]
+    "generated_at": "2026-07-08T19:00:46",
+    "total_projects": 27,
+    "projects": [
+        {
+            "id": "ai-soc2-compliance-agent",
+            "name": "AI SOC2 Compliance Agent",
+            "description": "Open-source Vanta/Drata alternative — automate SOC2 evidence collection, control mapping, and audit preparation. Track Trust Services Criteria controls, collect evidence, manage audits, and maintain security policies.",
+            "category": "security",
+            "icon": "🔒",
+            "tags": [
+                "SOC2",
+                "Compliance",
+                "Evidence Collection",
+                "Audit Prep"
+            ],
+            "agents": 5,
+            "agents_list": [
+                "Control Mapper — Maps SOC2 TSC criteria to your organization controls",
+                "Evidence Collector — Automated evidence gathering from integrations",
+                "Audit Manager — Tracks audit progress and manages auditor engagement",
+                "Policy Generator — Creates and maintains security policies",
+                "Integration Hub — Connects to AWS, GCP, GitHub, Okta, and 300+ tools"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/ai-soc2-compliance-agent",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + $2K-5K setup",
+            "status": "built",
+            "updated_at": "2026-06-29T17:34:37+00:00"
+        },
+        {
+            "id": "ai-competitive-intelligence-agent",
+            "name": "AI Competitive Intelligence Agent",
+            "description": "Open-source Crayon/Klue alternative — monitor competitor signals 24/7, auto-generate battlecards with AI, and build competitive briefings. Track website changes, pricing updates, job postings, reviews, and social mentions across all your competitors.",
+            "category": "marketing",
+            "icon": "🎯",
+            "tags": [
+                "Competitive Intel",
+                "Battlecards",
+                "Signal Detection",
+                "AI-Powered"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Signal Detector — Scans competitor websites, pricing pages, job boards, reviews, and social media",
+                "Battlecard Generator — Analyzes signals and auto-generates battlecards with strengths, weaknesses, win strategies",
+                "Briefing Builder — Compiles daily/weekly competitive intelligence digests",
+                "Background Worker — Continuous scanning with configurable intervals"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/ai-competitive-intelligence-agent",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + $500-2K/mo setup",
+            "status": "built",
+            "updated_at": "2026-06-29T17:03:01+00:00"
+        },
+        {
+            "id": "healthcare-prior-auth",
+            "name": "Healthcare Prior Auth",
+            "description": "Automate prior authorization workflows — extract patient data from EHR systems, check insurer requirements, flag denial risks, and generate complete submission packages. Built as a 4-agent multi-agent system using LangGraph.",
+            "category": "healthcare",
+            "icon": "🏥",
+            "tags": [
+                "4 Agents",
+                "HIPAA Ready",
+                "EHR Integration",
+                "LangGraph"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Auth Intake Agent — Extracts patient data from EHR/HL7 FHIR feeds",
+                "Requirement Checker — Validates insurer-specific criteria and coverage rules",
+                "Denial Risk Scorer — Flags high-risk submissions before they get rejected",
+                "Documentation Generator — Assembles complete prior auth submission packages"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/healthcare-prior-auth",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + $2K-5K setup",
+            "status": "built",
+            "updated_at": "2026-06-22T07:30:00+00:00"
+        },
+        {
+            "id": "real-estate-lead-gen",
+            "name": "Real Estate Lead Gen",
+            "description": "AI-powered lead generation team — scouts markets, qualifies leads from expired listings and pre-foreclosures, scores prospects using smart criteria, and generates personalized outreach campaigns. Multi-agent system built with LangGraph.",
+            "category": "marketing",
+            "icon": "🏠",
+            "tags": [
+                "4 Agents",
+                "Market Analysis",
+                "Lead Scoring",
+                "Outreach"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Prospecting Agent — Scans expired listings, pre-foreclosures, and off-market signals",
+                "Lead Qualifier — Filters and scores leads based on customizable criteria",
+                "Outreach Drafter — Generates personalized email/call scripts per lead",
+                "Pipeline Tracker — Tracks lead status and follow-up schedules"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/real-estate-lead-gen",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + $2K-5K setup",
+            "status": "built",
+            "updated_at": "2026-06-22T07:30:00+00:00"
+        },
+        {
+            "id": "ecommerce-product-optimizer",
+            "name": "E-Commerce Product Optimizer",
+            "description": "Automate product listing optimization for e-commerce stores with AI-powered SEO, competitive pricing, review management, and conversion optimization. 4-agent multi-agent system that handles the full product lifecycle.",
+            "category": "marketing",
+            "icon": "🛒",
+            "tags": [
+                "4 Agents",
+                "SEO",
+                "Conversion",
+                "Pricing"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Product Analyzer — Evaluates listing quality and competitor positioning",
+                "Content Optimizer — Rewrites titles, descriptions, and keywords for SEO",
+                "Pricing Agent — Monitors competitor pricing and recommends optimal prices",
+                "Review Manager — Tracks reviews, flags negatives, suggests responses"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/ecommerce-product-optimizer",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + $1K-3K setup",
+            "status": "built",
+            "updated_at": "2026-06-22T07:30:00+00:00"
+        },
+        {
+            "id": "legal-contract-review",
+            "name": "Legal Contract Review",
+            "description": "Parse contracts, identify redlines and risky clauses, assess risk exposure, generate negotiation summaries, and ensure GDPR/SOC2 compliance. Multi-agent system for legal teams.",
+            "category": "legal",
+            "icon": "⚖️",
+            "tags": [
+                "4 Agents",
+                "Risk Matrix",
+                "GDPR / SOC2",
+                "Compliance"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Contract Parser — Extracts clauses, terms, and obligations from contracts",
+                "Risk Assessor — Flags unusual or risky clauses with severity scoring",
+                "Compliance Checker — Validates against GDPR, SOC2, and industry standards",
+                "Summary Generator — Creates negotiation briefs and redline summaries"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/legal-contract-review",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + $3K-5K setup",
+            "status": "built",
+            "updated_at": "2026-06-22T07:30:00+00:00"
+        },
+        {
+            "id": "hr-operations",
+            "name": "HR Operations",
+            "description": "Resume screening, candidate scoring, personalized outreach, onboarding package generation, and compliance tracking. Multi-agent system for HR teams and recruiters.",
+            "category": "productivity",
+            "icon": "👥",
+            "tags": [
+                "4 Agents",
+                "Screening",
+                "Onboarding",
+                "Compliance"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Resume Screener — Parses resumes, extracts skills, ranks candidates",
+                "Candidate Scorer — Evaluates fit using customizable scoring criteria",
+                "Outreach Agent — Generates personalized outreach messages per candidate",
+                "Onboarding Agent — Creates onboarding packages and compliance checklists"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/hr-operations",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + $2K-4K setup",
+            "status": "built",
+            "updated_at": "2026-06-22T07:30:00+00:00"
+        },
+        {
+            "id": "ai-agent-sandbox-governance",
+            "name": "AI Agent Sandbox & Governance",
+            "description": "Open-source governance layer for AI agents — defines permission boundaries, sandboxes execution, and audits every tool call. YAML-defined policies, REST API, tamper-proof audit logs.",
+            "category": "security",
+            "icon": "🔐",
+            "tags": [
+                "Security",
+                "Governance",
+                "Open Source",
+                "Python",
+                "FastAPI"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Policy Engine — Enforce YAML-defined permission policies (filesystem, network, commands)",
+                "Sandbox Runner — Execute agent actions within defined boundaries",
+                "Audit Logger — Tamper-proof audit trail with hash chain verification",
+                "API Server — REST API for CI/CD pipeline integration"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/ai-agent-sandbox-governance",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Open-source MIT + Enterprise pricing",
+            "status": "built",
+            "updated_at": "2026-06-26T12:00:00+00:00"
+        },
+        {
+            "id": "estonia-e-residency-compliance-automator",
+            "name": "Estonia e-Residency Compliance",
+            "description": "Automate compliance workflows for Estonia e-Residency applications — document parsing, risk checks, status tracking. Multi-agent system for legal teams.",
+            "category": "legal",
+            "icon": "⚖️",
+            "tags": [
+                "Compliance",
+                "GDPR",
+                "Legal",
+                "Multi-Agent"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Document Parser — Extract data from e-Residency application documents",
+                "Risk Checker — Flag compliance risks and missing requirements",
+                "Status Tracker — Monitor application status and deadlines",
+                "Report Generator — Create compliance reports and summaries"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/estonia-e-residency-compliance-automator",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + $2K-4K setup",
+            "status": "built",
+            "updated_at": "2026-06-25T19:59:00+00:00"
+        },
+        {
+            "id": "ai-app-store-screenshot-generator",
+            "name": "AI App Store Screenshot Generator",
+            "description": "Automatically generate 800+ localized App Store and Google Play screenshots from a single design template. AI-powered localization across 39+ languages, 3 device sizes, and custom brand kits. Export directly to App Store Connect and Play Console.",
+            "category": "marketing",
+            "icon": "🎯",
+            "tags": [
+                "Marketing",
+                "App Store",
+                "Localization",
+                "Automation",
+                "Python"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Design Agent — Generates template layouts and brand-consistent designs",
+                "Localization Agent — AI-powered translation across 39+ languages with context awareness",
+                "Export Agent — Renders screenshots at all device sizes and uploads to stores",
+                "QA Agent — Validates screenshots against platform guidelines and brand consistency"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/ai-app-store-screenshot-generator",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + $1K-2K setup",
+            "status": "built",
+            "updated_at": "2026-06-28T14:25:00+00:00"
+        },
+        {
+            "id": "-i-built-an-ai-team-that-finds-leads-decision-make",
+            "name": "AI Team That Finds Leads & Writes Outreach",
+            "description": "Multi-agent system that finds leads, identifies decision makers, and writes personalized outreach while you sleep. Autonomous lead gen team.",
+            "category": "marketing",
+            "tags": [
+                "ai-agent",
+                "lead-generation",
+                "outreach",
+                "automation"
+            ],
+            "source_url": "https://github.com/phanindraintelligenzit-afk/-i-built-an-ai-team-that-finds-leads-decision-make",
+            "github_url": "https://github.com/phanindraintelligenzit-afk/-i-built-an-ai-team-that-finds-leads-decision-make/tree/main",
+            "status": "published",
+            "date_added": "2026-06-28",
+            "agents": 4,
+            "agents_list": [
+                "Lead Scout — finds prospects matching ICP",
+                "Decision Maker Finder — identifies key contacts",
+                "Outreach Writer — crafts personalized messages",
+                "Follow-up Manager — schedules and tracks replies"
+            ],
+            "key_features": [
+                "Autonomous lead discovery from multiple sources",
+                "Decision maker identification with role mapping",
+                "Personalized outreach message generation",
+                "Multi-channel delivery (email, LinkedIn)",
+                "Response tracking and follow-up scheduling"
+            ],
+            "icon": "🎯"
+        },
+        {
+            "id": "ai-invoice-reconciliation-agent",
+            "name": "AI Invoice Reconciliation Agent",
+            "description": "Autonomous multi-agent system that matches invoices to purchase orders, flags discrepancies, and routes exceptions for approval. Eliminates manual AP workflows.",
+            "category": "finance",
+            "icon": "💰",
+            "tags": [
+                "Finance",
+                "4 Agents",
+                "Invoice Matching",
+                "AP Automation"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Document Parser — Extracts line items from invoices (PDF, email, EDI)",
+                "PO Matcher — Matches invoices to purchase orders and receipts",
+                "Discrepancy Detector — Flags price mismatches, missing items, duplicates",
+                "Approval Router — Routes exceptions to correct approver based on rules"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/ai-invoice-reconciliation-agent",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + K-5K setup",
+            "status": "built",
+            "updated_at": "2026-06-29T00:28:00+00:00"
+        },
+        {
+            "id": "mcp-server-for-google-ads-meta-ads-ga4",
+            "name": "MCP Server for Google Ads, Meta Ads & GA4",
+            "description": "Production-ready MCP server that connects Claude, Cursor, and Codex to your Google Ads, Meta Ads, and GA4 accounts. Query campaigns, pull performance data, get AI-powered insights.",
+            "category": "marketing",
+            "icon": "🎯",
+            "tags": [
+                "Marketing",
+                "MCP Server",
+                "Google Ads",
+                "Meta Ads",
+                "GA4"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Campaign Reader — Pulls campaign data from Google Ads & Meta APIs",
+                "Performance Analyzer — Identifies underperforming campaigns and budget waste",
+                "Insight Generator — AI-powered recommendations for optimization",
+                "Report Builder — Generates weekly performance reports automatically"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/mcp-server-for-google-ads-meta-ads-ga4",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + K-3K setup",
+            "status": "built",
+            "updated_at": "2026-06-29T00:28:00+00:00"
+        },
+        {
+            "id": "reportgenie-ai",
+            "name": "ReportGenie AI",
+            "description": "Automated multi-source report generation with AI-powered insights. Connect Stripe, HubSpot, Google Analytics, Jira, CSV, PostgreSQL, MySQL and generate executive reports with narrative insights and actionable recommendations.",
+            "category": "marketing",
+            "tags": [
+                "reporting",
+                "analytics",
+                "ai",
+                "automation",
+                "dashboards",
+                "insights"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/AIdentify/tree/gh-pages/projects/reportgenie-ai",
+            "status": "published",
+            "created_at": "2026-06-29T03:46:09.829881",
+            "features": [
+                "Multi-source data connectors (Stripe, HubSpot, GA, Jira, CSV, API)",
+                "AI-generated narrative insights and recommendations",
+                "Executive summary, financial, marketing, engineering templates",
+                "Dark-themed dashboard with real-time report generation",
+                "REST API with async FastAPI backend",
+                "Docker + docker-compose deployment"
+            ]
+        },
+        {
+            "id": "nanoeuler-gpt-2-scale-model-in-pure-ccuda-from-scr",
+            "name": "NanoEuler — GPT-2 Scale Model in Pure C/CUDA",
+            "description": "Open-source GPT-2 scale language model implemented from scratch in pure C and CUDA. Train and inference without heavy frameworks — minimal dependencies, maximum performance.",
+            "category": "other",
+            "tags": [
+                "ai",
+                "llm",
+                "cuda",
+                "c",
+                "from-scratch",
+                "gpt",
+                "training",
+                "inference"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/nanoeuler-gpt-2-scale-model-in-pure-ccuda-from-scr",
+            "status": "published",
+            "created_at": "2026-06-30T06:09:29.872342+05:30",
+            "features": [
+                "Pure C/CUDA implementation — no PyTorch/TensorFlow dependencies",
+                "GPT-2 architecture from scratch with multi-head attention",
+                "Custom CUDA kernels for matrix operations",
+                "Training pipeline with data loading and checkpointing",
+                "Inference engine with token generation",
+                "REST API for model serving"
+            ]
+        },
+        {
+            "id": "code-shield-sast",
+            "name": "CodeShield SAST",
+            "description": "Open-source Snyk/Semgrep alternative — AI-powered static application security testing with 25+ detection rules covering OWASP Top 10. Scan code snippets or repos, get risk scores and remediation guidance.",
+            "category": "security",
+            "icon": "🛡️",
+            "tags": [
+                "SAST",
+                "Security Scanning",
+                "OWASP",
+                "Code Analysis",
+                "DevSecOps"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Pattern Engine — 25+ regex-based detection rules for SQLi, XSS, SSRF, and more",
+                "Risk Scorer — Calculates 0-100 risk score weighted by severity",
+                "Remediation Advisor — Provides fix guidance for every finding",
+                "Scan Orchestrator — Manages scan lifecycle and result persistence"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/code-shield-sast",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free self-hosted + $200-500/mo managed",
+            "status": "built",
+            "updated_at": "2026-06-30T09:00:00+00:00"
+        },
+        {
+            "id": "chorus-replacement-ai-sales-conversation-intellige",
+            "name": "Chorus Replacement - AI Sales Conversation Intelligence",
+            "description": "Open-source Chorus alternative - AI sales conversation intelligence that researches prospects, records calls, transcribes, analyzes sentiment, extracts insights, and coaches reps. Multi-agent: Researcher→Recorder→Analyzer→Coach. Beats Chorus $8K/yr per-seat pricing.",
+            "category": "marketing",
+            "icon": "🎯",
+            "tags": [
+                "Sales Intelligence",
+                "Conversation Analytics",
+                "Call Recording",
+                "AI Coaching",
+                "Multi-Agent"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Research Agent — Pre-call prospect research and context gathering",
+                "Recorder Agent — Call recording, transcription, and speaker diarization",
+                "Analyzer Agent — Sentiment analysis, topic extraction, competitive mentions",
+                "Coach Agent — Real-time coaching cues and post-call improvement feedback"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/chorus-replacement-ai-sales-conversation-intellige",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + $2K-5K setup",
+            "status": "built",
+            "updated_at": "2026-07-01T12:53:00+00:00"
+        },
+        {
+            "id": "pendo-replacement-ai-product-analytics-agent-inges",
+            "name": "Pendo Replacement - AI Product Analytics Agent",
+            "description": "Open-source Pendo alternative - AI product analytics agent that ingests events, auto-cohorts users, surfaces insights, tracks feature adoption, and predicts churn. Multi-agent: Ingest→Cohorter→InsightSurfer→Predictor. Beats Pendo $12K/yr proprietary SDK pricing.",
+            "category": "marketing",
+            "icon": "🎯",
+            "tags": [
+                "Product Analytics",
+                "Event Ingestion",
+                "Cohort Analysis",
+                "Churn Prediction",
+                "Multi-Agent"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Ingest Agent — Event ingestion, validation, and schema normalization",
+                "Cohorter Agent — Auto-cohort users by behavior, acquisition, features",
+                "InsightSurfer Agent — Surface adoption trends, friction points, opportunities",
+                "Predictor Agent — Churn risk scoring and retention forecasting"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/pendo-replacement-ai-product-analytics-agent-inges",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + $3K-8K setup",
+            "status": "built",
+            "updated_at": "2026-07-01T12:54:00+00:00"
+        },
+        {
+            "id": "complyai",
+            "name": "ComplyAI",
+            "description": "Enterprise-grade compliance automation for SMBs. AI-powered GDPR, HIPAA, and SOC2 assessments, document analysis, risk scoring, and remediation tracking — built for businesses with 5-200 employees that can't afford enterprise compliance tools.",
+            "category": "security",
+            "icon": "🛡️",
+            "tags": [
+                "compliance",
+                "security",
+                "gdpr",
+                "hipaa",
+                "soc2",
+                "automation",
+                "regtech",
+                "smb"
+            ],
+            "agents": 5,
+            "agents_list": [
+                "Auth Agent — Handles user registration",
+                "login",
+                "and JWT token management",
+                "Assessment Agent — Runs compliance assessments with intelligent scoring and gap analysis",
+                "Document Agent — Processes uploaded documents with AI analysis against regulatory frameworks",
+                "Finding Agent — Manages compliance findings with severity tracking and remediation planning",
+                "Report Agent — Generates compliance summaries",
+                "risk heatmaps",
+                "and trend analytics"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/complyai",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + 00-500/mo SaaS subscription per organization",
+            "status": "built",
+            "updated_at": "2026-07-07T11:26:58+00:00",
+            "key_features": [
+                "AI-powered document analysis against regulatory frameworks",
+                "Multi-framework support (GDPR",
+                "HIPAA",
+                "SOC2)",
+                "Real-time compliance dashboards and risk heatmaps",
+                "Automated remediation plans and finding tracking",
+                "Multi-tenant with RBAC and audit trail",
+                "Docker-based deployment ready for any cloud"
+            ]
+        },
+        {
+            "id": "compai",
+            "name": "CompAI - AI Compliance & Governance Platform",
+            "description": "Automate SOC 2, GDPR, HIPAA, and ISO 27001 compliance with AI-powered evidence collection, control mapping, and report generation. Reduces audit prep from months to minutes.",
+            "category": "productivity",
+            "icon": "🔐",
+            "tags": [
+                "compliance",
+                "governance",
+                "SOC2",
+                "GDPR",
+                "HIPAA",
+                "ISO27001",
+                "AI",
+                "automation",
+                "security",
+                "open-source"
+            ],
+            "agents": 3,
+            "agents_list": [
+                "BusinessScanner — Scans for compliance automation opportunities",
+                "IdeaScorer — Scores and selects winning compliance idea",
+                "SystemReviewer — Architects full compliance platform blueprint"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/compai",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free open-source repo + $2K-10K enterprise setup/consulting",
+            "status": "built",
+            "updated_at": "2026-07-07T12:03:48+00:00",
+            "key_features": [
+                "AI-powered evidence collection and analysis",
+                "Multi-framework support (SOC2/GDPR/HIPAA/ISO27001)",
+                "Real-time compliance dashboard",
+                "Automated auditor-ready report generation",
+                "JWT + MFA authentication",
+                "Role-based access control (4 roles)",
+                "15+ REST API endpoints",
+                "Docker Compose one-command deploy"
+            ]
+        },
+        {
+            "id": "ai-workflow-cleanup",
+            "name": "AI Workflow Cleanup & Optimization",
+            "description": "Open-source tool that audits n8n/Zapier/Make setups, identifies broken automations, and rebuilds them properly. AI-powered workflow health scoring, 8 issue pattern detectors, and auto-fix suggestions.",
+            "category": "productivity",
+            "icon": "🧹",
+            "tags": [
+                "workflow",
+                "automation",
+                "n8n",
+                "zapier",
+                "make",
+                "fastapi",
+                "react"
+            ],
+            "agents": 3,
+            "agents_list": [
+                "Scanner Agent — Audits existing workflows and detects broken patterns",
+                "Repair Agent — Generates fix suggestions and rebuilds broken automations",
+                "Monitor Agent — Tracks workflow health and prevents future failures"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/ai-workflow-cleanup",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + K-3K setup",
+            "status": "built",
+            "updated_at": "2026-07-07T12:43:32+00:00",
+            "key_features": [
+                "8 issue pattern detectors (missing triggers",
+                "bad credentials",
+                "timeouts",
+                "rate limits",
+                "broken mappings",
+                "deprecated APIs)",
+                "Workflow health scoring (0-100)",
+                "Auto-fix suggestions",
+                "Full CRUD for workflow management",
+                "Dark-themed React dashboard",
+                "FastAPI backend with SQLite",
+                "One-command Docker deploy"
+            ]
+        },
+        {
+            "id": "ai-support-platform",
+            "name": "AI Support Platform",
+            "description": "Open-source multi-agent customer support platform — alternative to Zendesk/Intercom. Automates 78% of tickets with a LangGraph-powered pipeline using Claude Sonnet 4 on AWS Bedrock.",
+            "category": "customer-support",
+            "icon": "🤖",
+            "tags": [
+                "customer-support",
+                "multi-agent",
+                "langgraph",
+                "zendesk-alternative",
+                "claude",
+                "bedrock",
+                "open-source"
+            ],
+            "agents": 4,
+            "agents_list": [
+                "Scanner — Discovers support automation opportunities",
+                "Scorer — Evaluates customer support pain points",
+                "Architect — Designs multi-agent system",
+                "Coder — Builds the platform"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/agentsfactory-ai-support-platform",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free open-source + paid enterprise setup/support",
+            "status": "built",
+            "updated_at": "2026-07-07T17:38:35+00:00"
+        },
+        {
+            "id": "opencomply",
+            "name": "OpenComply",
+            "description": "Open-source SOC 2 / GRC compliance automation platform -- a multi-agent alternative to Vanta, Drata, and Secureframe that automates evidence collection, control mapping, risk assessment, and audit preparation",
+            "category": "security",
+            "icon": "shield",
+            "tags": [
+                "compliance",
+                "soc2",
+                "grc",
+                "security",
+                "audit",
+                "open-source",
+                "multi-agent"
+            ],
+            "agents": 5,
+            "agents_list": [
+                "EvidenceCollectorAgent — Automates cloud infrastructure evidence collection from AWS GCP GitHub and Docker",
+                "ControlMapperAgent — Maps raw evidence to SOC 2 ISO 27001 and PCI control frameworks",
+                "RiskAssessorAgent — Identifies compliance gaps with automated risk severity scoring",
+                "AuditorSimulatorAgent — Runs pre-audit simulations to find gaps before real auditor review",
+                "ReportGeneratorAgent — Generates PDF reports executive summaries and audit-ready packages"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/opencomply",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free open-source repo + 2000-5000 setup and 500-1000 per month for enterprise on-prem deployment with priority support",
+            "status": "built",
+            "updated_at": "2026-07-08T03:49:28+00:00",
+            "key_features": [
+                "Multi-framework support SOC 2 ISO 27001 PCI DSS",
+                "Five specialized AI compliance agents working in concert",
+                "Automated evidence collection from cloud and CI/CD infrastructure",
+                "Real-time compliance dashboard with live control status",
+                "Pre-audit simulations that catch gaps before the real auditor",
+                "PDF report generation for executive summaries and audit packages"
+            ]
+        },
+        {
+            "id": "obsidian",
+            "name": "Obsidian -- Open-Source Multi-Agent Observability & APM Platform",
+            "description": "Open-source alternative to Datadog/New Relic powered by a multi-agent AI engine for intelligent root cause analysis, anomaly detection, and alert correlation. Ingest traces, metrics, and logs via OpenTelemetry with ClickHouse storage and a real-time React dashboard.",
+            "category": "development",
+            "icon": "🔮",
+            "tags": [
+                "observability",
+                "apm",
+                "monitoring",
+                "opentelemetry",
+                "multi-agent",
+                "ai",
+                "devtools",
+                "open-source"
+            ],
+            "agents": 5,
+            "agents_list": [
+                "Anomaly Detection Agent — Identifies metric outliers and unusual patterns in real-time using statistical analysis",
+                "Trace Analysis Agent — Analyzes distributed trace waterfalls to detect latency issues and error propagation",
+                "Log Pattern Agent — Detects error clusters and log volume anomalies across services",
+                "Alert Correlation Agent — Deduplicates and groups related alerts into cohesive incidents",
+                "Root Cause Agent — Coordinates findings from all agents and produces actionable RCA reports"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/obsidian",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free open-source repo + managed cloud hosted option",
+            "status": "built",
+            "updated_at": "2026-07-08T10:21:32+00:00",
+            "key_features": [
+                "OpenTelemetry-native ingestion for traces",
+                "metrics",
+                "and logs",
+                "Multi-agent AI engine with 5 specialized agents",
+                "ClickHouse columnar storage for high-performance queries",
+                "Real-time React dashboard with WebSocket updates",
+                "JWT authentication with OAuth2 support",
+                "Docker Compose one-command deployment",
+                "Kubernetes Helm charts for production scaling",
+                "GitHub Actions CI/CD pipeline"
+            ]
+        },
+        {
+            "id": "dealintel",
+            "name": "DealIntel - Open Source Revenue Intelligence",
+            "description": "Open-source, multi-agent revenue intelligence platform that records, transcribes, and analyzes sales calls. 7 AI agents work together to provide call transcription, sentiment analysis, deal health scoring, coaching recommendations, and CRM sync. A direct open-source alternative to Gong.",
+            "category": "sales",
+            "icon": "dart",
+            "tags": [
+                "sales",
+                "intelligence",
+                "revenue",
+                "call-analysis",
+                "transcription",
+                "open-source",
+                "gong-alternative",
+                "multi-agent"
+            ],
+            "agents": 7,
+            "agents_list": [
+                "Ingestion Agent — Captures calls via upload",
+                "Zoom",
+                "or Teams integration",
+                "Transcription Agent — Converts audio to searchable text via Whisper with speaker diarization",
+                "Analysis Agent — Extracts sentiment",
+                "topics",
+                "objections",
+                "competitor mentions using LLM",
+                "Deal Scoring Agent — Calculates deal health score and win probability from conversation patterns",
+                "Coaching Agent — Identifies skill gaps and generates personalized coaching recommendations",
+                "CRM Sync Agent — Pushes insights to HubSpot or Salesforce",
+                "Reporting Agent — Generates dashboards and trend analysis"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/DealIntel",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free MIT repo + Enterprise cloud at 9/seat/mo + Setup at K-5K",
+            "status": "built",
+            "updated_at": "2026-07-08T17:09:53+00:00",
+            "key_features": [
+                "Multi-agent system with 7 specialist agents",
+                "Call recording via Zoom",
+                "Teams",
+                "or direct upload",
+                "Whisper-powered transcription with speaker diarization",
+                "AI sentiment",
+                "topic",
+                "and objection analysis",
+                "Deal health scoring with win probability prediction",
+                "Personalized sales coaching recommendations",
+                "CRM sync (HubSpot and Salesforce)",
+                "Self-hosted",
+                "privacy-first",
+                "no vendor lock-in",
+                "React + TypeScript frontend with live dashboard",
+                "Full Docker deployment with CI/CD"
+            ]
+        },
+        {
+            "id": "auto-workflow-orchestrator",
+            "name": "AutoWorkflow Orchestrator",
+            "description": "Open-source multi-agent enterprise workflow orchestration platform. Replaces SAP Build Process Automation (100K+/yr), ServiceNow Workflows, and Siemens Teamcenter (165/user/mo). Features 5 LangGraph agents for order intake, change management, product lifecycle, device lifecycle, and cross-system consistency monitoring. Includes enterprise dashboard and GDPR compliance layer.",
+            "category": "productivity",
+            "icon": "🚗",
+            "tags": [
+                "enterprise",
+                "workflow-automation",
+                "erp",
+                "multi-agent",
+                "langgraph",
+                "gdpr",
+                "supply-chain"
+            ],
+            "agents": 5,
+            "agents_list": [
+                "Order Intake Agent — Multi-channel order ingestion, validation, and ERP routing",
+                "Change Manager Agent — Change request orchestration with multi-system provisioning",
+                "Product Lifecycle Agent — Engineering change management with impact analysis",
+                "Device Lifecycle Agent — Device and SIM lifecycle automation (provision, activate, retire)",
+                "Consistency Monitor Agent — Cross-system data reconciliation across ERP, CRM, PLM, and DMS",
+                "Compliance Guard Agent — GDPR compliance, consent management, data mapping, DSR handling"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/auto-workflow-orchestrator",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Free repo + 3K-10K enterprise setup with custom agent configuration and ERP integration",
+            "status": "built",
+            "updated_at": "2026-07-08T18:42:18+00:00",
+            "key_features": [
+                "5-Agent LangGraph multi-agent system",
+                "Multi-channel order ingestion and ERP routing",
+                "Change request management with approval workflows",
+                "Product lifecycle change management",
+                "Device/SIM lifecycle automation",
+                "Cross-system consistency monitoring",
+                "GDPR compliance guard layer",
+                "Enterprise dashboard with real-time metrics"
+            ]
+        },
+        {
+            "id": "smart-europe-agent",
+            "name": "Smart Europe AI Agent",
+            "description": "LangGraph-powered multi-agent customer support system for Smart Europe automotive. 6 specialized agents (Router, KB RAG, Clarification, SIM Lifecycle, Order Mgmt, Escalation) + 5 n8n automation workflows (Order Ingestion, Outlet Changes, Product/PNO18, SIM Lifecycle via Vodafone IoT, Data Consistency). GDPR-compliant with eu-central-1 data residency. Self-hosted n8n replaces SAP CPI Groovy scripts. Runs on AWS Bedrock (Claude Sonnet).",
+            "category": "automation",
+            "icon": "🚗",
+            "tags": [
+                "automotive",
+                "langgraph",
+                "ai-agent",
+                "gdpr",
+                "europe",
+                "smart-europe",
+                "bedrock",
+                "n8n",
+                "customer-support",
+                "telecom"
+            ],
+            "agents": 6,
+            "agents_list": [
+                "Router Agent — Classifies user intent and routes to correct handler using Bedrock Claude Sonnet",
+                "KB Retrieval Agent — RAG-powered knowledge base search with Bedrock Knowledge Bases",
+                "Clarification Agent — Multi-turn Q&A for ambiguous requests (SIM",
+                "orders",
+                "products)",
+                "SIM Lifecycle Agent — Manages eSIM activation/deactivation/pairing via n8n → Vodafone IoT API",
+                "Order Agent — Handles order status inquiries and modifications via n8n",
+                "Human Escalation Agent — GDPR Art. 22 compliant handoff to Smart Europe specialists"
+            ],
+            "github_url": "https://github.com/phanindraintelligenzit-afk/smart-europe-agent",
+            "stars": 0,
+            "forks": 0,
+            "language": "Python",
+            "monetization": "Enterprise delivery via IntelligenzIT — 2 Digital FTEs + n8n automation layer",
+            "status": "built",
+            "updated_at": "2026-07-08T19:00:45+00:00",
+            "key_features": [
+                "Multi-agent LangGraph orchestration (6 agents)",
+                "GDPR-compliant EU data residency (eu-central-1)",
+                "5 n8n deterministic automation workflows",
+                "Fully working demo — no external APIs needed",
+                "RAG with AWS Bedrock Knowledge Bases",
+                "SIM lifecycle via Vodafone IoT API integration",
+                "SAP CPI Groovy replacement via n8n",
+                "Production-ready FastAPI server with audit logging"
+            ]
+        }
+    ]
 }
