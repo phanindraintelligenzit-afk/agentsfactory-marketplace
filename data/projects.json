@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08T19:34:36",
-  "total_projects": 28,
+  "generated_at": "2026-07-08T19:55:45",
+  "total_projects": 29,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -922,6 +922,47 @@
         "EU GDPR compliance layer",
         "Real-time dashboard with analytics",
         "Open-source with enterprise support"
+      ]
+    },
+    {
+      "id": "flowbridge",
+      "name": "FlowBridge",
+      "description": "AI-Powered Order-to-Cash Automation Engine with 7 LangGraph agents for end-to-end workflow orchestration across CRM, ERP, invoicing, payments, and fulfillment",
+      "category": "productivity",
+      "icon": "",
+      "tags": [
+        "workflow-automation",
+        "order-to-cash",
+        "langgraph",
+        "ai-agents",
+        "erp-integration",
+        "open-source"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "OrderIngestor \u2014 Captures orders from CRM email API and portals",
+        "OrderValidator \u2014 Validates pricing inventory and credit limits",
+        "ERPOrchestrator \u2014 Bidirectional sync with SAP Oracle NetSuite Odoo",
+        "InvoiceGenerator \u2014 Creates invoices with billing rules and tax calc",
+        "PaymentTracker \u2014 Monitors payments sends reminders and reconciles",
+        "FulfillmentWatcher \u2014 Tracks shipments delivery returns and RMA",
+        "AnalyticsAgent \u2014 O2C metrics bottleneck detection and forecasting"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/flowbridge",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free open source (MIT) + enterprise connectors",
+      "status": "built",
+      "updated_at": "2026-07-08T19:55:44+00:00",
+      "key_features": [
+        "7 AI LangGraph agents for O2C pipeline",
+        "Multi-source order ingestion CRM email API portals",
+        "ERP integration SAP Oracle NetSuite Odoo",
+        "Real-time invoice generation and payment tracking",
+        "End-to-end fulfillment and returns management",
+        "Analytics dashboard with bottleneck detection",
+        "Docker Compose one-command deployment"
       ]
     }
   ]
