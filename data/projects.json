@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09T04:40:52",
-  "total_projects": 31,
+  "generated_at": "2026-07-09T07:14:30",
+  "total_projects": 32,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1059,6 +1059,57 @@
         "Auditor-ready evidence packages with gap analysis",
         "API-first design for custom integrations",
         "Docker Compose deployment"
+      ]
+    },
+    {
+      "id": "tand-e-agent",
+      "name": "T&E Agent \u2014 Open-Source SAP Concur Alternative",
+      "description": "Open-source Travel & Expense Management Agent \u2014 an AI-powered multi-agent alternative to SAP Concur. 5 agents handle receipt OCR, travel booking, policy enforcement, reimbursement orchestration, and fraud detection audit trails. Built with FastAPI, LangGraph, PostgreSQL, Redis, and Streamlit.",
+      "category": "productivity",
+      "icon": "\ud83e\uddfe",
+      "tags": [
+        "expense-management",
+        "travel-and-expense",
+        "procurement",
+        "sap-concur-alternative",
+        "open-source",
+        "multi-agent",
+        "fastapi",
+        "langgraph"
+      ],
+      "agents": 5,
+      "agents_list": [
+        "Expense Agent \u2014 Receipt OCR",
+        "auto-categorization",
+        "duplicate detection",
+        "Travel Booking Agent \u2014 Multi-source flight/hotel aggregation and itinerary management",
+        "Policy Enforcement Agent \u2014 Rules engine",
+        "compliance checks",
+        "approval routing",
+        "Reimbursement Agent \u2014 Payment orchestration",
+        "ERP/GL sync",
+        "batch processing",
+        "Audit Trail Agent \u2014 Fraud detection ML",
+        "compliance reporting",
+        "anomaly alerts"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/tand-e-agent",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Open-source core (MIT) + Enterprise tier (paid): ERP connectors, advanced fraud detection, dedicated support",
+      "status": "built",
+      "updated_at": "2026-07-09T07:14:29+00:00",
+      "key_features": [
+        "Receipt OCR and auto-categorization with multi-modal LLMs",
+        "Multi-source travel booking (flights",
+        "hotels) with policy compliance",
+        "Configurable policy rules engine with approval workflows",
+        "Automated reimbursement and ERP/GL synchronization",
+        "AI-powered fraud detection and compliance audit trails",
+        "Streamlit dashboard for expense submission and tracking",
+        "Docker Compose deployment",
+        "fully self-hosted"
       ]
     }
   ]
