@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08T19:55:45",
-  "total_projects": 29,
+  "generated_at": "2026-07-09T03:56:07",
+  "total_projects": 30,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -963,6 +963,46 @@
         "End-to-end fulfillment and returns management",
         "Analytics dashboard with bottleneck detection",
         "Docker Compose one-command deployment"
+      ]
+    },
+    {
+      "id": "orderflow-ai",
+      "name": "OrderFlow AI",
+      "description": "Open-source multi-agent Order-to-Cash orchestration engine. LangGraph-powered agents automate, track, and reconcile orders across ERP, CRM, WMS, and invoicing systems.",
+      "category": "productivity",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "enterprise",
+        "automation",
+        "langgraph",
+        "order-management",
+        "erp",
+        "multi-agent"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "Order Intake Agent \u2014 Parse and validate incoming orders",
+        "Inventory Check Agent \u2014 Verify stock availability and allocate items",
+        "ERP Sync Agent \u2014 Synchronize order data to ERP systems",
+        "Fulfillment Agent \u2014 Track shipping and fulfillment status",
+        "Invoice Agent \u2014 Generate and dispatch invoices",
+        "Reconciliation Agent \u2014 Match PO/invoice/payment records",
+        "Exception Handler Agent \u2014 Escalate edge cases and mismatches"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/orderflow-ai",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free open-source repo + Enterprise deployment support",
+      "status": "built",
+      "updated_at": "2026-07-09T03:56:06+00:00",
+      "key_features": [
+        "7 specialized LangGraph agents for full O2C pipeline",
+        "Real-time workflow visualization and agent monitoring",
+        "Automated exception handling and retry mechanisms",
+        "RESTful API with FastAPI and PostgreSQL",
+        "Interactive React/TypeScript dashboard with Recharts",
+        "Docker Compose deployment for production readiness"
       ]
     }
   ]
