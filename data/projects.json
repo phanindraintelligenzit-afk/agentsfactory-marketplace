@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09T03:56:07",
-  "total_projects": 30,
+  "generated_at": "2026-07-09T04:40:52",
+  "total_projects": 31,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1003,6 +1003,62 @@
         "RESTful API with FastAPI and PostgreSQL",
         "Interactive React/TypeScript dashboard with Recharts",
         "Docker Compose deployment for production readiness"
+      ]
+    },
+    {
+      "id": "open-secgrc",
+      "name": "Open-SecGRC",
+      "description": "Open-source SOC 2 and GRC compliance automation platform powered by 7 LangGraph agents. Automates evidence collection, control monitoring, audit preparation, and remediation across AWS, Azure, GCP, GitHub, and Slack. Replaces Vanta and Drata.",
+      "category": "security",
+      "icon": "\ud83d\udd12",
+      "tags": [
+        "security",
+        "compliance",
+        "soc2",
+        "grc",
+        "open-source",
+        "langgraph",
+        "fastapi",
+        "multi-agent"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "EvidenceCollector \u2014 Auto-collects evidence from 50+ cloud/SaaS integrations",
+        "PolicyMapper \u2014 Maps 200+ controls across SOC 2",
+        "ISO 27001",
+        "HIPAA",
+        "GDPR",
+        "ControlMonitor \u2014 Continuous drift detection with 15-minute periodic checks",
+        "Remediation \u2014 Auto-fixes common security issues (MFA",
+        "encryption",
+        "permissions)",
+        "AuditPrep \u2014 Packages evidence into auditor-ready bundles with gap analysis",
+        "ComplianceReporter \u2014 Generates executive dashboards and compliance scorecards",
+        "FrameworkAdvisor \u2014 Recommends optimal frameworks based on company profile"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/open-secgrc",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free open-source repo + managed cloud 00/month",
+      "status": "built",
+      "updated_at": "2026-07-09T04:40:51+00:00",
+      "key_features": [
+        "7 specialized LangGraph agents for compliance automation",
+        "Continuous evidence collection from AWS",
+        "Azure",
+        "GCP",
+        "GitHub",
+        "Slack",
+        "SOC 2",
+        "ISO 27001",
+        "HIPAA",
+        "GDPR framework support",
+        "Dark-themed React dashboard with compliance scorecards",
+        "Auto-remediation for common security findings",
+        "Auditor-ready evidence packages with gap analysis",
+        "API-first design for custom integrations",
+        "Docker Compose deployment"
       ]
     }
   ]
