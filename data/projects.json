@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09T07:14:30",
-  "total_projects": 32,
+  "generated_at": "2026-07-11T03:43:10",
+  "total_projects": 33,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1110,6 +1110,46 @@
         "Streamlit dashboard for expense submission and tracking",
         "Docker Compose deployment",
         "fully self-hosted"
+      ]
+    },
+    {
+      "id": "consistencyforge",
+      "name": "ConsistencyForge",
+      "description": "AI-powered cross-system data consistency engine. Detects, diagnoses, and auto-heals data mismatches across CRM, ERP, order management, and any connected business system using 7 specialized LangGraph agents.",
+      "category": "productivity",
+      "icon": "\ud83d\udd17",
+      "tags": [
+        "data-consistency",
+        "enterprise-automation",
+        "langgraph",
+        "fastapi",
+        "react"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "SchemaIngestionAgent \u2014 Ingests and normalizes schemas from connected data sources",
+        "FieldMapperAgent \u2014 Maps semantically equivalent fields across systems using LLM reasoning",
+        "ConsistencyScannerAgent \u2014 Cross-system value comparison detecting mismatches and anomalies",
+        "RootCauseAgent \u2014 Analyzes each anomaly to determine upstream root cause",
+        "AutoHealAgent \u2014 Proposes and auto-executes fixes for detected inconsistencies",
+        "ReconciliationOrchestratorAgent \u2014 Orchestrates multi-step reconciliation workflows with conflict resolution",
+        "AuditTrailAgent \u2014 Builds compliance-ready audit trails for every action taken"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/consistencyforge",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free open-source repo with MIT license. Enterprise setup, custom connectors, and managed hosting available.",
+      "status": "built",
+      "updated_at": "2026-07-11T03:43:08+00:00",
+      "key_features": [
+        "7 specialized LangGraph agents for end-to-end consistency management",
+        "Cross-system field mapping with LLM-powered semantic equivalence detection",
+        "Automated anomaly detection with severity scoring and root cause analysis",
+        "Self-healing engine with human-in-the-loop approval workflows",
+        "Comprehensive audit trail for compliance and regulatory requirements",
+        "Modern React dashboard with real-time anomaly tracking",
+        "Full Docker deployment with PostgreSQL and Redis"
       ]
     }
   ]
