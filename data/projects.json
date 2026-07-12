@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-12T07:27:25",
-  "total_projects": 35,
+  "generated_at": "2026-07-12T07:27:35",
+  "total_projects": 36,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1230,6 +1230,49 @@
         "AI-powered discrepancy detection",
         "Configurable approval routing",
         "Docker Compose one-command deploy"
+      ]
+    },
+    {
+      "id": "open-socialpilot",
+      "name": "Open-SocialPilot \u2014 Open-Source Sprout Social Alternative",
+      "description": "Open-source alternative to Sprout Social \u2014 AI multi-agent social media management. 6 agents handle content creation, scheduling, analytics, engagement, team collaboration, and social listening. Built with FastAPI, LangGraph, PostgreSQL, Redis, and React.",
+      "category": "marketing",
+      "icon": "\ud83d\udcf1",
+      "tags": [
+        "social-media-management",
+        "sprout-social-alternative",
+        "open-source",
+        "multi-agent",
+        "fastapi",
+        "langgraph",
+        "marketing",
+        "ai-agents"
+      ],
+      "agents": 6,
+      "agents_list": [
+        "ContentAgent \u2014 AI content generation and optimization",
+        "ScheduleAgent \u2014 Smart scheduling and multi-platform publishing",
+        "AnalyticsAgent \u2014 Cross-platform analytics and competitor benchmarking",
+        "EngagementAgent \u2014 Unified inbox and auto-engagement",
+        "TeamAgent \u2014 Collaboration",
+        "approvals",
+        "and asset management",
+        "IntelligenceAgent \u2014 Social listening and trend detection"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/open-socialpilot",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free MIT core + 9/mo managed cloud + 99/mo agency + 00+/mo enterprise",
+      "status": "built",
+      "updated_at": "2026-07-12T07:27:34+00:00",
+      "key_features": [
+        "AI content generation with brand voice",
+        "Multi-platform scheduling with optimal timing",
+        "Unified analytics dashboard",
+        "Real-time engagement inbox",
+        "Team approval workflows",
+        "Social listening and competitor tracking"
       ]
     }
   ]
