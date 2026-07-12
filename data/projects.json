@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-12T03:45:39",
-  "total_projects": 34,
+  "generated_at": "2026-07-12T07:27:25",
+  "total_projects": 35,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1192,6 +1192,44 @@
         "Automatic order validation and enrichment",
         "Cross-system reconciliation and audit trail",
         "Full Docker Compose deployment"
+      ]
+    },
+    {
+      "id": "flowmatch",
+      "name": "FlowMatch \u2014 AI Invoice & PO Matching Platform",
+      "description": "Open-source AI-powered invoice and purchase order matching platform. 4 agents handle document processing, PO matching, discrepancy detection, and exception routing. Built with FastAPI, LangGraph, PostgreSQL, Redis, and React.",
+      "category": "finance",
+      "icon": "\ud83d\udcb0",
+      "tags": [
+        "invoice-processing",
+        "po-matching",
+        "ap-automation",
+        "finance",
+        "open-source",
+        "multi-agent",
+        "fastapi",
+        "langgraph"
+      ],
+      "agents": 4,
+      "agents_list": [
+        "DocumentProcessor \u2014 OCR and data extraction from invoices",
+        "Matcher \u2014 Fuzzy matching of invoice lines to PO lines",
+        "DiscrepancyDetector \u2014 Price/quantity/tax mismatch detection",
+        "ApprovalRouter \u2014 Routes exceptions to correct approver"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/flowmatch",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + K-5K setup",
+      "status": "built",
+      "updated_at": "2026-07-12T07:27:24+00:00",
+      "key_features": [
+        "Automated invoice OCR and data extraction",
+        "Multi-criteria PO line matching",
+        "AI-powered discrepancy detection",
+        "Configurable approval routing",
+        "Docker Compose one-command deploy"
       ]
     }
   ]
