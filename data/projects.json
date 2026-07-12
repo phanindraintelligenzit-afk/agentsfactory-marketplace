@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-12T07:27:54",
-  "total_projects": 38,
+  "generated_at": "2026-07-12T07:28:03",
+  "total_projects": 39,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1345,6 +1345,47 @@
         "Internal linking automation",
         "CMS publishing integration",
         "Performance tracking"
+      ]
+    },
+    {
+      "id": "business-inbox-agent",
+      "name": "Business Inbox Agent \u2014 Universal Business Request Router",
+      "description": "AI-powered inbox that connects to email, Slack, and forms. Classifies incoming requests with LLMs, extracts structured data, and auto-routes to CRM, support, invoicing, or scheduling workflows. 3-agent system: Classifier, Extractor, Router.",
+      "category": "productivity",
+      "icon": "\ud83d\udce5",
+      "tags": [
+        "email-automation",
+        "inbox-management",
+        "request-routing",
+        "open-source",
+        "multi-agent",
+        "fastapi",
+        "langgraph"
+      ],
+      "agents": 3,
+      "agents_list": [
+        "Classifier \u2014 Categorizes incoming requests by type and urgency",
+        "Extractor \u2014 Extracts structured data from unstructured input",
+        "Router \u2014 Routes to correct system (CRM",
+        "support",
+        "invoicing",
+        "scheduling)"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/business-inbox-agent",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + K-2K setup",
+      "status": "built",
+      "updated_at": "2026-07-12T07:28:02+00:00",
+      "key_features": [
+        "Multi-channel input (email",
+        "Slack",
+        "forms)",
+        "LLM-powered classification",
+        "Structured data extraction",
+        "Configurable routing rules",
+        "Integration with CRM/support tools"
       ]
     }
   ]
