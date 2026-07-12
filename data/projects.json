@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T07:28:17",
+  "generated_at": "2026-07-12T07:30:04",
   "total_projects": 40,
   "projects": [
     {
@@ -1234,46 +1234,35 @@
     },
     {
       "id": "open-socialpilot",
-      "name": "Open-SocialPilot \u2014 Open-Source Sprout Social Alternative",
-      "description": "Open-source alternative to Sprout Social \u2014 AI multi-agent social media management. 6 agents handle content creation, scheduling, analytics, engagement, team collaboration, and social listening. Built with FastAPI, LangGraph, PostgreSQL, Redis, and React.",
-      "category": "marketing",
+      "name": "Open-SocialPilot",
+      "description": "Open-source SMB Social Media Management platform \u2014 multi-agent alternative to Sprout Social, Buffer, Hootsuite. 6 LangGraph agents (Content, Schedule, Analytics, Engagement, Team, Intelligence) + Supervisor for content creation, scheduling, analytics, engagement, team collaboration, and competitive intelligence.",
+      "category": "social-media",
       "icon": "\ud83d\udcf1",
       "tags": [
-        "social-media-management",
-        "sprout-social-alternative",
-        "open-source",
+        "social-media",
         "multi-agent",
-        "fastapi",
         "langgraph",
-        "marketing",
-        "ai-agents"
+        "smb",
+        "automation",
+        "marketing"
       ],
-      "agents": 6,
+      "agents": 7,
       "agents_list": [
-        "ContentAgent \u2014 AI content generation and optimization",
-        "ScheduleAgent \u2014 Smart scheduling and multi-platform publishing",
-        "AnalyticsAgent \u2014 Cross-platform analytics and competitor benchmarking",
-        "EngagementAgent \u2014 Unified inbox and auto-engagement",
-        "TeamAgent \u2014 Collaboration",
-        "approvals",
-        "and asset management",
-        "IntelligenceAgent \u2014 Social listening and trend detection"
+        "ContentAgent \u2014 AI-powered content generation with brand voice",
+        "ScheduleAgent \u2014 Multi-platform optimal timing & publishing",
+        "AnalyticsAgent \u2014 Cross-platform insights & competitor tracking",
+        "EngagementAgent \u2014 Unified inbox & auto-replies",
+        "TeamAgent \u2014 Approval workflows & role-based access",
+        "IntelligenceAgent \u2014 Trend detection & strategy recommendations",
+        "SupervisorAgent \u2014 Orchestrates all agents via LangGraph"
       ],
       "github_url": "https://github.com/phanindraintelligenzit-afk/open-socialpilot",
       "stars": 0,
       "forks": 0,
       "language": "Python",
-      "monetization": "Free MIT core + 9/mo managed cloud + 99/mo agency + 00+/mo enterprise",
+      "monetization": "Free MIT core + Pro 9/mo + Agency 99/mo + Enterprise 00+/mo",
       "status": "built",
-      "updated_at": "2026-07-12T07:27:34+00:00",
-      "key_features": [
-        "AI content generation with brand voice",
-        "Multi-platform scheduling with optimal timing",
-        "Unified analytics dashboard",
-        "Real-time engagement inbox",
-        "Team approval workflows",
-        "Social listening and competitor tracking"
-      ]
+      "updated_at": "2026-07-12T07:30:03+00:00"
     },
     {
       "id": "ai-content-repurposer",
