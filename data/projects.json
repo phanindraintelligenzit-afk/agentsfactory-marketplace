@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T03:43:10",
-  "total_projects": 33,
+  "generated_at": "2026-07-12T03:45:39",
+  "total_projects": 34,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1150,6 +1150,48 @@
         "Comprehensive audit trail for compliance and regulatory requirements",
         "Modern React dashboard with real-time anomaly tracking",
         "Full Docker deployment with PostgreSQL and Redis"
+      ]
+    },
+    {
+      "id": "orderflowai",
+      "name": "OrderFlowAI",
+      "description": "Multi-ERP Intelligent Order Orchestrator powered by 7 LangGraph agents. Automates end-to-end order processing ingestion, validation, enrichment, routing, execution, reconciliation, and notification across SAP, Oracle NetSuite, Dynamics 365 and custom ERP systems.",
+      "category": "productivity",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "erp-integration",
+        "order-management",
+        "langgraph",
+        "ai-agents",
+        "workflow-automation",
+        "fastapi",
+        "react"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "OrderIngestionAgent \u2014 Parse incoming orders from EDI/API/email/portal formats",
+        "ValidationAgent \u2014 Validate orders against business rules and ERP constraints",
+        "EnrichmentAgent \u2014 Enrich with customer data pricing and inventory",
+        "RoutingAgent \u2014 Route orders to correct target ERP system",
+        "ExecutionAgent \u2014 Submit orders to target ERP and handle responses",
+        "ReconciliationAgent \u2014 Reconcile order status across systems and flag discrepancies",
+        "NotificationAgent \u2014 Send alerts and summaries to stakeholders"
+      ],
+      "github_url": "",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free open-source repo + enterprise setup and customization",
+      "status": "built",
+      "updated_at": "2026-07-12T03:45:38+00:00",
+      "key_features": [
+        "7 specialized LangGraph agents in pipeline",
+        "Multi-ERP support SAP Oracle NetSuite Dynamics 365",
+        "Real-time order tracking via WebSocket",
+        "Drag-and-drop ERP connection management",
+        "Automatic order validation and enrichment",
+        "Cross-system reconciliation and audit trail",
+        "Full Docker Compose deployment"
       ]
     }
   ]
