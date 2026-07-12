@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-12T07:27:35",
-  "total_projects": 36,
+  "generated_at": "2026-07-12T07:27:45",
+  "total_projects": 37,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1273,6 +1273,42 @@
         "Real-time engagement inbox",
         "Team approval workflows",
         "Social listening and competitor tracking"
+      ]
+    },
+    {
+      "id": "ai-content-repurposer",
+      "name": "AI Content Repurposer \u2014 Multi-Platform Content Automation",
+      "description": "Automate content repurposing across platforms with AI. Transform long-form content into social posts, threads, newsletters, and video scripts. 3-agent pipeline handles extraction, adaptation, and scheduling.",
+      "category": "marketing",
+      "icon": "\ud83d\udd04",
+      "tags": [
+        "content-repurposing",
+        "content-automation",
+        "marketing",
+        "open-source",
+        "multi-agent",
+        "fastapi",
+        "langgraph"
+      ],
+      "agents": 3,
+      "agents_list": [
+        "ContentExtractor \u2014 Extracts key insights from long-form content",
+        "PlatformAdapter \u2014 Adapts content for each platform format",
+        "Scheduler \u2014 Optimizes posting schedule by platform"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/ai-content-repurposer",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + K-2K setup",
+      "status": "built",
+      "updated_at": "2026-07-12T07:27:44+00:00",
+      "key_features": [
+        "Transform blogs to threads/posts/newsletters",
+        "Multi-platform format adaptation",
+        "AI-powered scheduling optimization",
+        "Brand voice consistency",
+        "Content calendar integration"
       ]
     }
   ]
