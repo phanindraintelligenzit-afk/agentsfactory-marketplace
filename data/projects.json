@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-12T07:28:03",
-  "total_projects": 39,
+  "generated_at": "2026-07-12T07:28:17",
+  "total_projects": 40,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1386,6 +1386,45 @@
         "Structured data extraction",
         "Configurable routing rules",
         "Integration with CRM/support tools"
+      ]
+    },
+    {
+      "id": "youtube-channel-manager",
+      "name": "YouTube Channel Manager \u2014 AI Content Automation",
+      "description": "Autonomous YouTube channel management system. Trend research, script writing, SEO optimization, thumbnail briefs, and content calendar management. 3-agent system: Researcher, Writer, Optimizer.",
+      "category": "marketing",
+      "icon": "\ud83c\udfac",
+      "tags": [
+        "youtube-automation",
+        "content-creation",
+        "seo",
+        "video-marketing",
+        "open-source",
+        "multi-agent",
+        "fastapi",
+        "langgraph"
+      ],
+      "agents": 3,
+      "agents_list": [
+        "Researcher \u2014 Trend research and topic ideation",
+        "Writer \u2014 Script writing and content creation",
+        "Optimizer \u2014 SEO",
+        "thumbnails",
+        "and publishing optimization"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/youtube-channel-manager",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + K-5K setup",
+      "status": "built",
+      "updated_at": "2026-07-12T07:28:16+00:00",
+      "key_features": [
+        "Automated trend research",
+        "Script generation with brand voice",
+        "SEO-optimized titles/descriptions",
+        "Thumbnail brief generation",
+        "Content calendar management"
       ]
     }
   ]
