@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-12T07:27:45",
-  "total_projects": 37,
+  "generated_at": "2026-07-12T07:27:54",
+  "total_projects": 38,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1309,6 +1309,42 @@
         "AI-powered scheduling optimization",
         "Brand voice consistency",
         "Content calendar integration"
+      ]
+    },
+    {
+      "id": "ai-seo-content-pipeline",
+      "name": "AI SEO Content Pipeline \u2014 Automated SEO Content Factory",
+      "description": "End-to-end SEO content automation pipeline. AI agents research keywords, generate optimized content, handle internal linking, and publish to CMS. 3-agent system covers research, writing, and publishing.",
+      "category": "marketing",
+      "icon": "\ud83d\udcc8",
+      "tags": [
+        "seo",
+        "content-automation",
+        "content-marketing",
+        "open-source",
+        "multi-agent",
+        "fastapi",
+        "langgraph"
+      ],
+      "agents": 3,
+      "agents_list": [
+        "KeywordResearcher \u2014 Finds high-opportunity keywords and topics",
+        "ContentWriter \u2014 Generates SEO-optimized articles with internal links",
+        "Publisher \u2014 Publishes to CMS with meta optimization"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/ai-seo-content-pipeline",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + K-2K setup",
+      "status": "built",
+      "updated_at": "2026-07-12T07:27:53+00:00",
+      "key_features": [
+        "Automated keyword research and clustering",
+        "SEO-optimized content generation",
+        "Internal linking automation",
+        "CMS publishing integration",
+        "Performance tracking"
       ]
     }
   ]
