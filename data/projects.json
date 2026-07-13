@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-12T07:30:04",
-  "total_projects": 40,
+  "generated_at": "2026-07-13T03:44:02",
+  "total_projects": 41,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1414,6 +1414,48 @@
         "SEO-optimized titles/descriptions",
         "Thumbnail brief generation",
         "Content calendar management"
+      ]
+    },
+    {
+      "id": "autoorder",
+      "name": "AutoOrder",
+      "description": "AI Order Management Agent System powered by LangGraph. Automates order intake, validation, inventory checking, pricing, approval routing, and fulfillment through 7 intelligent agents.",
+      "category": "productivity",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "order-management",
+        "ai-agents",
+        "langgraph",
+        "automation",
+        "fastapi"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "OrderIntakeAgent \u2014 Parses and normalizes incoming orders",
+        "ValidationAgent \u2014 Validates customers",
+        "products",
+        "and credit limits",
+        "InventoryAgent \u2014 Checks stock availability and reserves inventory",
+        "PricingAgent \u2014 Applies pricing rules and calculates totals",
+        "OrchestrationAgent \u2014 Coordinates the multi-agent workflow",
+        "ApprovalAgent \u2014 Routes exceptions to human approvers",
+        "FulfillmentAgent \u2014 Pushes orders to ERP and generates confirmations"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/autoorder",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + enterprise setup",
+      "status": "built",
+      "updated_at": "2026-07-13T03:44:01+00:00",
+      "key_features": [
+        "7 AI agents powered by LangGraph",
+        "Automated order intake and validation",
+        "Real-time inventory checking and pricing",
+        "Smart approval routing for exceptions",
+        "Full workflow traceability",
+        "Docker deployment",
+        "React dashboard with metrics"
       ]
     }
   ]
