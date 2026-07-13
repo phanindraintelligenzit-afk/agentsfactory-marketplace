@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-13T03:44:02",
-  "total_projects": 41,
+  "generated_at": "2026-07-13T10:01:07",
+  "total_projects": 42,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1456,6 +1456,51 @@
         "Full workflow traceability",
         "Docker deployment",
         "React dashboard with metrics"
+      ]
+    },
+    {
+      "id": "enterprise-workflow-automation",
+      "name": "Enterprise Workflow Automation",
+      "description": "AI-powered workflow automation platform for enterprises with visual builder, AI agents, and multi-tenant architecture",
+      "category": "productivity",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "workflow",
+        "automation",
+        "ai",
+        "agents",
+        "langgraph",
+        "enterprise",
+        "productivity"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "Workflow Engine \u2014 Orchestrates multi-step workflows with DAG execution",
+        "AI Agent \u2014 LLM-powered agents with tool use and memory",
+        "Document Processor \u2014 Extracts and processes document content",
+        "Web Researcher \u2014 Searches and analyzes web content",
+        "Code Executor \u2014 Runs Python code in sandbox",
+        "Email Sender \u2014 Sends notifications via SMTP",
+        "Data Transformer \u2014 Filters",
+        "maps",
+        "and aggregates data"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/enterprise-workflow-automation",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + enterprise setup",
+      "status": "built",
+      "updated_at": "2026-07-13T10:01:02+00:00",
+      "key_features": [
+        "Visual workflow builder",
+        "AI agent orchestration",
+        "Multi-tenant RBAC",
+        "Webhook integration",
+        "Scheduled execution",
+        "Template marketplace",
+        "Real-time monitoring",
+        "API access"
       ]
     }
   ]
