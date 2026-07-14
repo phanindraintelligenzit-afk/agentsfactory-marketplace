@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-13T10:07:27",
-  "total_projects": 42,
+  "generated_at": "2026-07-14T09:20:44",
+  "total_projects": 43,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1501,6 +1501,45 @@
         "Template marketplace",
         "Real-time monitoring",
         "API access"
+      ]
+    },
+    {
+      "id": "agentflow",
+      "name": "AgentFlow",
+      "description": "Enterprise AI Agent Orchestration Platform with LangGraph agents for order-to-cash, reconciliation, SIM lifecycle, DMS integration, and cross-system sync",
+      "category": "productivity",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "langgraph",
+        "ai-agents",
+        "workflow-automation",
+        "enterprise",
+        "order-to-cash",
+        "reconciliation",
+        "telecom",
+        "automotive"
+      ],
+      "agents": 5,
+      "agents_list": [
+        "Order-to-Cash Orchestrator \u2014 End-to-end order fulfillment to reconciliation",
+        "Reconciliation Agent \u2014 Cross-system data matching with ML",
+        "SIM Lifecycle Agent \u2014 Telecom eSIM/SIM provisioning & management",
+        "DMS Integration Agent \u2014 Automotive dealer system synchronization",
+        "Cross-System Sync Agent \u2014 Real-time CDC with CRDT conflict resolution"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/agentflow",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + enterprise setup",
+      "status": "built",
+      "updated_at": "2026-07-14T09:20:42+00:00",
+      "key_features": [
+        "Agent Marketplace",
+        "Human-in-the-loop",
+        "Real-time SSE monitoring",
+        "Multi-tenant RBAC",
+        "5 Pre-built agents"
       ]
     }
   ]
