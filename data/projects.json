@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T09:20:44",
+  "generated_at": "2026-07-15T03:36:00",
   "total_projects": 43,
   "projects": [
     {
@@ -967,42 +967,51 @@
     },
     {
       "id": "orderflow-ai",
-      "name": "OrderFlow AI",
-      "description": "Open-source multi-agent Order-to-Cash orchestration engine. LangGraph-powered agents automate, track, and reconcile orders across ERP, CRM, WMS, and invoicing systems.",
+      "name": "Order Orchestrator AI",
+      "description": "Agentic Order-to-Cash orchestration for multi-system B2B enterprises. 7 LangGraph agents automate the full O2C lifecycle: order intake, inventory verification, ERP sync, fulfillment tracking, invoicing, and reconciliation. Self-hosted, MIT licensed, zero vendor lock-in.",
       "category": "productivity",
       "icon": "\ud83e\udd16",
       "tags": [
-        "enterprise",
-        "automation",
+        "order-to-cash",
+        "erp-integration",
         "langgraph",
-        "order-management",
-        "erp",
-        "multi-agent"
+        "agentic-ai",
+        "b2b-automation",
+        "supply-chain",
+        "manufacturing",
+        "distribution",
+        "telco",
+        "automotive"
       ],
       "agents": 7,
       "agents_list": [
-        "Order Intake Agent \u2014 Parse and validate incoming orders",
-        "Inventory Check Agent \u2014 Verify stock availability and allocate items",
-        "ERP Sync Agent \u2014 Synchronize order data to ERP systems",
-        "Fulfillment Agent \u2014 Track shipping and fulfillment status",
-        "Invoice Agent \u2014 Generate and dispatch invoices",
-        "Reconciliation Agent \u2014 Match PO/invoice/payment records",
-        "Exception Handler Agent \u2014 Escalate edge cases and mismatches"
+        "Order Intake Agent \u2014 Normalizes EDI/email/API orders to canonical schema",
+        "Inventory Verification Agent \u2014 Real-time ATP/CTP across ERP+WMS+supplier portals",
+        "ERP Sync Agent \u2014 Bidirectional idempotent sync with SAP/Oracle/NetSuite/Dynamics",
+        "Fulfillment Tracking Agent \u2014 Orchestrates WMS\u2192carrier\u2192POD with HITL exceptions",
+        "Invoicing Agent \u2014 Generates compliant invoices (EDI 810",
+        "Peppol",
+        "PDF/A-3) with tax engines",
+        "Reconciliation Agent \u2014 Three-way match PO\u2194GRN\u2194Invoice with 95%+ auto-rate",
+        "Orchestrator Supervisor \u2014 LangGraph StateGraph with checkpointing",
+        "HITL interrupts",
+        "replay"
       ],
       "github_url": "https://github.com/phanindraintelligenzit-afk/orderflow-ai",
       "stars": 0,
       "forks": 0,
       "language": "Python",
-      "monetization": "Free open-source repo + Enterprise deployment support",
+      "monetization": "Free repo + enterprise setup",
       "status": "built",
-      "updated_at": "2026-07-09T03:56:06+00:00",
+      "updated_at": "2026-07-15T03:35:59+00:00",
       "key_features": [
-        "7 specialized LangGraph agents for full O2C pipeline",
-        "Real-time workflow visualization and agent monitoring",
-        "Automated exception handling and retry mechanisms",
-        "RESTful API with FastAPI and PostgreSQL",
-        "Interactive React/TypeScript dashboard with Recharts",
-        "Docker Compose deployment for production readiness"
+        "7 LangGraph agents",
+        "ERP adapters (SAP/Oracle/NetSuite/Dynamics)",
+        "Event-driven (Kafka/NATS/Redis)",
+        "OpenTelemetry observability",
+        "Helm+Terraform IaC",
+        "HITL + checkpointing",
+        "MIT license"
       ]
     },
     {
