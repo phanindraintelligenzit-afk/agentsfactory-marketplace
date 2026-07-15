@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T03:37:36",
-  "total_projects": 43,
+  "generated_at": "2026-07-15T19:37:08",
+  "total_projects": 44,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1542,6 +1542,51 @@
         "Real-time SSE monitoring",
         "Multi-tenant RBAC",
         "5 Pre-built agents"
+      ]
+    },
+    {
+      "id": "sap-password-reset-agent",
+      "name": "SAP Password Reset Agent \u2014 Enterprise SAP Managed Services Automation",
+      "description": "Enterprise-grade LangGraph agent for automating SAP password resets in managed services environments. 7-agent pipeline handles ticket classification, LDAP identity verification, SAP BAPI_USER_CHANGE execution, user notification, and full audit trail. Built with Groovy (SAP JCo), Ruby (LDAP), LangGraph, Ollama (local LLM), and PostgreSQL. Deploys inside your VPC \u2014 zero internet dependency, data-sovereign.",
+      "category": "enterprise",
+      "icon": "\ud83d\udd10",
+      "tags": [
+        "sap",
+        "enterprise",
+        "managed-services",
+        "password-reset",
+        "langgraph",
+        "groovy",
+        "automation",
+        "sap-basis",
+        "contact-us"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "Classify Agent \u2014 LLM-based ticket classification and user extraction",
+        "Verify Agent \u2014 Ruby LDAP identity verification",
+        "Validate Agent \u2014 Groovy SAP user validation and policy check",
+        "Execute Agent \u2014 Groovy SAP JCo BAPI_USER_CHANGE reset",
+        "Notify Agent \u2014 JS-based email notification service",
+        "Audit Agent \u2014 PostgreSQL compliance audit trail",
+        "Escalate Agent \u2014 Error handling and human operator routing"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/sap-password-reset-agent",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
+      "status": "built",
+      "updated_at": "2026-07-15T19:37:07+00:00",
+      "key_features": [
+        "Automates 30-40% of L1 SAP managed services tickets",
+        "Enterprise SSO/LDAP identity verification",
+        "SAP BAPI_USER_CHANGE via Groovy JCo integration",
+        "Local LLM (Ollama) \u2014 zero cloud dependency",
+        "Full PostgreSQL audit trail (SOC 2/SOX compliant)",
+        "VPC-only deployment \u2014 no public internet egress",
+        "Docker Compose \u2014 deploy in 2-3 days",
+        "Sanitized client template for enterprise sell-in"
       ]
     }
   ]
