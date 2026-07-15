@@ -269,6 +269,36 @@
   </div>
 </div>
 
+<!-- CONTACT MODAL -->
+<div class="modal-overlay" id="contactOverlay" onclick="if(event.target===this)closeContact()">
+  <div class="modal" id="contactModal" style="max-width:520px">
+    <div class="modal-header">
+      <div style="display:flex;align-items:center;gap:10px;"><span style="font-size:24px">📞</span><span class="card-title">Get Started — Enterprise License</span></div>
+      <button class="modal-close" onclick="closeContact()">✕</button>
+    </div>
+    <div class="modal-body">
+      <p style="color:var(--text-secondary);font-size:14px;margin-bottom:20px;">Fill in your details and our team will reach out with pricing, deployment options, and a live demo.</p>
+      <form onsubmit="submitContact(event)" style="display:flex;flex-direction:column;gap:14px;">
+        <input type="text" placeholder="Your Name" required style="width:100%;padding:10px 12px;background:var(--bg-surface);border:1px solid var(--border-default);border-radius:var(--radius-md);color:var(--text-primary);font-size:14px;font-family:inherit;outline:none;">
+        <input type="email" placeholder="Work Email" required style="width:100%;padding:10px 12px;background:var(--bg-surface);border:1px solid var(--border-default);border-radius:var(--radius-md);color:var(--text-primary);font-size:14px;font-family:inherit;outline:none;">
+        <input type="text" placeholder="Company Name" required style="width:100%;padding:10px 12px;background:var(--bg-surface);border:1px solid var(--border-default);border-radius:var(--radius-md);color:var(--text-primary);font-size:14px;font-family:inherit;outline:none;">
+        <select style="width:100%;padding:10px 12px;background:var(--bg-surface);border:1px solid var(--border-default);border-radius:var(--radius-md);color:var(--text-primary);font-size:14px;font-family:inherit;outline:none;cursor:pointer;">
+          <option value="">I'm interested in...</option>
+          <option>SAP Password Reset Agent</option>
+          <option>SAP Basis Automation Agent</option>
+          <option>Salesforce User Provisioning Agent</option>
+          <option>Custom Enterprise Agent</option>
+          <option>Other</option>
+        </select>
+        <textarea placeholder="Tell us about your environment and requirements" rows="3" style="width:100%;padding:10px 12px;background:var(--bg-surface);border:1px solid var(--border-default);border-radius:var(--radius-md);color:var(--text-primary);font-size:14px;font-family:inherit;outline:none;resize:vertical;"></textarea>
+        <button type="submit" class="btn-primary" style="width:100%;padding:12px;font-size:14px;cursor:pointer;">📩 Request Demo & Pricing</button>
+      </form>
+      <p id="contactThanks" style="display:none;color:var(--accent-hover);font-size:14px;text-align:center;padding:20px 0;">✅ Thank you! Our team will reach out within 24 hours.</p>
+      <p style="color:var(--text-muted);font-size:12px;text-align:center;margin-top:12px;">Or email us directly at <a href="mailto:enterprise@intelligenzit.com" style="color:var(--accent-hover)">enterprise@intelligenzit.com</a></p>
+    </div>
+  </div>
+</div>
+
 <!-- MODAL -->
 <div class="modal-overlay" id="modalOverlay" onclick="if(event.target===this)closeModal()">
   <div class="modal" id="modal"></div>
@@ -455,9 +485,20 @@ function openModal(id) {
   '<div class="modal-body">' +
     '<p style="color:var(--text-secondary);font-size:14px;margin-bottom:20px;">'+p.description+'</p>' +
     '<div class="modal-actions">' +
-      '<button class="star-btn'+(isStarred?' starred':'')+'" onclick="toggleSave(\''+id+'\',this)">'+(isStarred?'★ Saved':'☆ Save')+'</button>' +
-      (p.github_url ? '<a href="'+p.github_url+'" target="_blank" class="btn-ghost" style="text-decoration:none">View on GitHub ↗</a>' : '') +
-    '</div>' +
+          (function(){
+            var isEnt = p.monetization && (p.monetization.toLowerCase().indexOf('enterprise') >= 0 || p.monetization.toLowerCase().indexOf('contact us') >= 0);
+            var b = '<button class="star-btn'+(isStarred?' starred':'')+'" onclick="toggleSave(\''+id+'\',this)">'+(isStarred?'★ Saved':'☆ Save')+'</button>';
+            if (p.github_url && !isEnt) {
+              b += '<a href="'+p.github_url+'" target="_blank" class="btn-ghost" style="text-decoration:none">View on GitHub ↗</a>';
+            } else if (p.github_url && isEnt) {
+              b += '<span class="btn-ghost" style="opacity:0.35;cursor:not-allowed;pointer-events:none">View on GitHub 🔒</span>';
+            }
+            if (isEnt) {
+              b += '<a href="#" onclick="event.preventDefault();event.stopPropagation();openContact(\''+id+'\');return false;" class="btn-primary" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;cursor:pointer">📞 Contact Us</a>';
+            }
+            return b;
+          })() +
+        '</div>' +
     (p.agents_list && p.agents_list.length > 0 ? '<div class="modal-section"><h3>Agent Architecture ('+p.agents+' agents)</h3><ul class="agent-list">'+p.agents_list.map(function(a,i){return '<li><span class="agent-num">'+(i+1)+'</span>'+a+'</li>';}).join('')+'</ul></div>' : '') +
     (p.key_features && p.key_features.length > 0 ? '<div class="modal-section"><h3>Key Features</h3><div class="tag-list">'+p.key_features.map(function(f){return '<span class="tag">'+f+'</span>';}).join('')+'</div></div>' : '') +
     (p.tags && p.tags.length > 0 ? '<div class="modal-section"><h3>Tags</h3><div class="tag-list">'+p.tags.map(function(t){return '<span class="tag">'+t+'</span>';}).join('')+'</div></div>' : '') +
@@ -560,9 +601,33 @@ function updateDashboard() {
   }
 }
 
+// --- CONTACT MODAL ---
+function openContact(projectId) {
+  document.getElementById('contactOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeContact() {
+  document.getElementById('contactOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function submitContact(e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = form.querySelector('input[placeholder="Your Name"]').value;
+  var email = form.querySelector('input[placeholder="Work Email"]').value;
+  var company = form.querySelector('input[placeholder="Company Name"]').value;
+  var interest = form.querySelector('select').value;
+  var msg = form.querySelector('textarea').value;
+  var mailto = 'mailto:enterprise@intelligenzit.com?subject=Enterprise%20Agent%20Inquiry%20-%20' + encodeURIComponent(interest || 'General') + '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nCompany: ' + company + '\nInterest: ' + interest + '\nMessage: ' + msg);
+  window.location.href = mailto;
+  document.getElementById('contactThanks').style.display = 'block';
+  form.style.display = 'none';
+  setTimeout(function(){ closeContact(); }, 3000);
+}
+
 // --- KEYBOARD ---
 document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') closeModal();
+  if (e.key === 'Escape') { closeModal(); closeContact(); }
   if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); document.getElementById('searchInput').focus(); }
 });
 </script>
