@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T03:36:00",
+  "generated_at": "2026-07-15T03:37:36",
   "total_projects": 43,
   "projects": [
     {
@@ -968,7 +968,7 @@
     {
       "id": "orderflow-ai",
       "name": "Order Orchestrator AI",
-      "description": "Agentic Order-to-Cash orchestration for multi-system B2B enterprises. 7 LangGraph agents automate the full O2C lifecycle: order intake, inventory verification, ERP sync, fulfillment tracking, invoicing, and reconciliation. Self-hosted, MIT licensed, zero vendor lock-in.",
+      "description": "Agentic Order-to-Cash orchestration for multi-system enterprises using 7 LangGraph agents. Automates order intake, inventory verification, ERP sync, fulfillment, invoicing, and reconciliation across SAP, Oracle, NetSuite, Dynamics. MIT licensed, self-hosted, zero vendor lock-in.",
       "category": "productivity",
       "icon": "\ud83e\udd16",
       "tags": [
@@ -976,42 +976,35 @@
         "erp-integration",
         "langgraph",
         "agentic-ai",
-        "b2b-automation",
         "supply-chain",
-        "manufacturing",
-        "distribution",
-        "telco",
-        "automotive"
+        "b2b-automation"
       ],
       "agents": 7,
       "agents_list": [
-        "Order Intake Agent \u2014 Normalizes EDI/email/API orders to canonical schema",
-        "Inventory Verification Agent \u2014 Real-time ATP/CTP across ERP+WMS+supplier portals",
-        "ERP Sync Agent \u2014 Bidirectional idempotent sync with SAP/Oracle/NetSuite/Dynamics",
-        "Fulfillment Tracking Agent \u2014 Orchestrates WMS\u2192carrier\u2192POD with HITL exceptions",
-        "Invoicing Agent \u2014 Generates compliant invoices (EDI 810",
-        "Peppol",
-        "PDF/A-3) with tax engines",
-        "Reconciliation Agent \u2014 Three-way match PO\u2194GRN\u2194Invoice with 95%+ auto-rate",
-        "Orchestrator Supervisor \u2014 LangGraph StateGraph with checkpointing",
-        "HITL interrupts",
-        "replay"
+        "OrderIntakeAgent \u2014 normalizes EDI/email/API orders to canonical schema",
+        "InventoryVerificationAgent \u2014 real-time ATP/CTP across ERP+WMS+supplier portals",
+        "ERPSyncAgent \u2014 bidirectional idempotent sync with SAP/Oracle/NetSuite/Dynamics",
+        "FulfillmentOrchestratorAgent \u2014 WMS-to-carrier-to-POD orchestration with HITL",
+        "InvoicingAgent \u2014 compliant EDI 810/Peppol/PDF invoices with tax engines",
+        "ReconciliationAgent \u2014 three-way match PO-GRN-Invoice 95% auto-rate",
+        "OrchestratorSupervisor \u2014 LangGraph StateGraph with checkpointing/HITL/replay"
       ],
       "github_url": "https://github.com/phanindraintelligenzit-afk/orderflow-ai",
       "stars": 0,
       "forks": 0,
       "language": "Python",
-      "monetization": "Free repo + enterprise setup",
+      "monetization": "Free repo (MIT) + enterprise setup/support",
       "status": "built",
-      "updated_at": "2026-07-15T03:35:59+00:00",
+      "updated_at": "2026-07-15T03:37:35+00:00",
       "key_features": [
-        "7 LangGraph agents",
-        "ERP adapters (SAP/Oracle/NetSuite/Dynamics)",
-        "Event-driven (Kafka/NATS/Redis)",
+        "7 production-ready LangGraph agents",
+        "ERP adapters for SAP/Oracle/NetSuite/Dynamics",
+        "Event-driven architecture (Kafka/NATS/Redis)",
         "OpenTelemetry observability",
         "Helm+Terraform IaC",
-        "HITL + checkpointing",
-        "MIT license"
+        "HITL interrupts & time-travel replay",
+        "Three-way reconciliation 95%+ auto-rate",
+        "MIT license zero vendor lock-in"
       ]
     },
     {
