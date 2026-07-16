@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T19:37:08",
-  "total_projects": 44,
+  "generated_at": "2026-07-16T07:10:53",
+  "total_projects": 45,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1587,6 +1587,42 @@
         "VPC-only deployment \u2014 no public internet egress",
         "Docker Compose \u2014 deploy in 2-3 days",
         "Sanitized client template for enterprise sell-in"
+      ]
+    },
+    {
+      "id": "agentmesh",
+      "name": "AgentMesh",
+      "description": "Multi-Agent Workflow Orchestration Platform (LangGraph-native)",
+      "category": "productivity",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "langgraph",
+        "multi-agent",
+        "workflow",
+        "orchestration",
+        "human-in-the-loop"
+      ],
+      "agents": 5,
+      "agents_list": [
+        "Orchestrator \u2014 Graph traversal and checkpoint management",
+        "Tool \u2014 HTTP/SQL/Python/LLM tool execution",
+        "HumanInTheLoop \u2014 Approval/reject/modify workflows",
+        "Observer \u2014 Structured event streaming",
+        "Policy \u2014 Pre/post condition enforcement"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/agentmesh",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free open-source repo + enterprise setup",
+      "status": "built",
+      "updated_at": "2026-07-16T07:10:51+00:00",
+      "key_features": [
+        "LangGraph-native execution",
+        "Real-time WebSocket streaming",
+        "Human-in-the-loop approvals",
+        "Multi-tenant with encrypted secrets",
+        "OpenTelemetry observability"
       ]
     }
   ]
