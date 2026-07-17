@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T07:10:53",
-  "total_projects": 45,
+  "generated_at": "2026-07-17T05:57:32",
+  "total_projects": 46,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1623,6 +1623,54 @@
         "Human-in-the-loop approvals",
         "Multi-tenant with encrypted secrets",
         "OpenTelemetry observability"
+      ]
+    },
+    {
+      "id": "order2cash-agents",
+      "name": "Order2Cash Agents",
+      "description": "Open-source Multi-Agent Order-to-Cash Automation Platform built with FastAPI, LangGraph, React, and PostgreSQL. Automates the complete B2B O2C lifecycle from unstructured order ingestion to cash collection using 7 specialized AI agents.",
+      "category": "productivity",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "order-to-cash",
+        "langgraph",
+        "ai-agents",
+        "automation",
+        "b2b",
+        "erp-integration",
+        "fastapi",
+        "react"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "OrderIngestionAgent \u2014 Parses unstructured orders from email/WhatsApp/PDF",
+        "ValidationAgent \u2014 Validates against customer/product/pricing master data",
+        "CreditCheckAgent \u2014 Evaluates credit limits and payment history",
+        "AllocationAgent \u2014 Allocates inventory across warehouses with FIFO/FEFO",
+        "ShippingAgent \u2014 Creates shipments",
+        "selects carriers",
+        "generates labels",
+        "InvoiceAgent \u2014 Generates invoices with taxes",
+        "syncs to ERP",
+        "CollectionsAgent \u2014 Manages dunning workflows and payment reminders"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/order2cash-agents",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free open-source core; Enterprise support, advanced ERP adapters, SLA",
+      "status": "built",
+      "updated_at": "2026-07-17T05:57:31+00:00",
+      "key_features": [
+        "7 specialized LangGraph agents",
+        "Unstructured order ingestion (email/WhatsApp/PDF)",
+        "Human-in-the-loop checkpoints",
+        "ERP-agnostic adapters (SAP",
+        "NetSuite",
+        "QuickBooks)",
+        "Real-time LangGraph observability",
+        "Multi-tenant with RBAC",
+        "Docker/K8s deployment ready"
       ]
     }
   ]
