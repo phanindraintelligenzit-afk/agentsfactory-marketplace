@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T05:45:11",
+  "generated_at": "2026-07-18T05:45:50",
   "total_projects": 47,
   "projects": [
     {
@@ -1676,41 +1676,43 @@
     {
       "id": "order-orchestrator",
       "name": "Order Orchestrator",
-      "description": "Multi-channel order orchestration platform with LangGraph agents for ERP, CRM, e-commerce, and marketplace integrations. Automates order ingestion, validation, inventory allocation, fulfillment routing, and exception handling.",
+      "description": "Multi-channel order orchestration platform with LangGraph agents for ERP, CRM, e-commerce, and marketplace integrations",
       "category": "productivity",
-      "icon": "\ud83d\udce6",
+      "icon": "\ud83e\udd16",
       "tags": [
         "order-management",
         "langgraph",
+        "fastapi",
+        "react",
+        "erp-integration",
         "multi-channel",
         "ecommerce",
-        "erp-integration",
         "automation"
       ],
-      "agents": 6,
+      "agents": 5,
       "agents_list": [
-        "Ingestion Agent \u2014 Normalizes orders from multiple channels",
-        "Validation Agent \u2014 Validates against business rules and master data",
-        "Allocation Agent \u2014 Reserves inventory across warehouses",
-        "Fulfillment Agent \u2014 Routes to 3PL/carriers and generates labels",
-        "Exception Handler Agent \u2014 Retries",
-        "escalates",
-        "and tracks SLAs",
-        "ERP Integration Agent \u2014 Syncs confirmed orders to ERP systems"
+        "Ingestion Agent \u2014 Normalizes orders from any channel into canonical schema",
+        "Validation Agent \u2014 Schema validation plus configurable business rules",
+        "Allocation Agent \u2014 Multi-warehouse inventory reservation with priority/proximity/cost strategies",
+        "Fulfillment Agent \u2014 Carrier label generation (UPS/FedEx/USPS/DHL) and 3PL/WMS integration",
+        "Exception Handler Agent \u2014 Exponential backoff retries",
+        "SLA monitoring",
+        "human escalation queue"
       ],
       "github_url": "https://github.com/phanindraintelligenzit-afk/order-orchestrator",
       "stars": 0,
       "forks": 0,
       "language": "Python",
-      "monetization": "Free open-source + enterprise setup/support",
+      "monetization": "Free repo + enterprise setup",
       "status": "built",
-      "updated_at": "2026-07-18T05:45:10+00:00",
+      "updated_at": "2026-07-18T05:45:49+00:00",
       "key_features": [
-        "5 LangGraph agents",
-        "Shopify/Amazon/BigCommerce connectors",
+        "Multi-channel ingestion",
+        "LangGraph agent orchestration",
         "Real-time inventory sync",
-        "Exception queue with SLA",
-        "OpenTelemetry observability"
+        "Flexible fulfillment routing",
+        "Exception management with SLA",
+        "Full observability stack"
       ]
     }
   ]
