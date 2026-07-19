@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T05:45:50",
-  "total_projects": 47,
+  "generated_at": "2026-07-19T09:10:54",
+  "total_projects": 48,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1713,6 +1713,52 @@
         "Flexible fulfillment routing",
         "Exception management with SLA",
         "Full observability stack"
+      ]
+    },
+    {
+      "id": "crosssync-orderhub",
+      "name": "CrossSync OrderHub",
+      "description": "Agentic Cross-System Order Consistency & Order-to-Cash Orchestration Platform. 7 LangGraph agents reconcile orders across ERP, DMS, CRM, OMS in real-time. Auto-resolves discrepancies, orchestrates O2C workflow, manages inventory allocation, reconciles carrier invoices.",
+      "category": "productivity",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "order-management",
+        "erp-integration",
+        "cross-system-reconciliation",
+        "order-to-cash",
+        "langgraph-agents",
+        "inventory-allocation",
+        "carrier-reconciliation"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "IngestionAgent \u2014 Normalizes orders from EDI/email/API/portal",
+        "ReconciliationAgent \u2014 Cross-system drift detection (ERP vs DMS vs CRM vs OMS)",
+        "ResolutionAgent \u2014 Auto-resolves discrepancies with rules & human-in-loop",
+        "O2COrchestratorAgent \u2014 LangGraph state machine for Order-to-Cash cycle",
+        "InventoryAllocationAgent \u2014 Real-time ATP/CTP with multi-location & customer tiers",
+        "CarrierReconciliationAgent \u2014 Matches carrier invoices to shipments",
+        "validates rates",
+        "auto-disputes",
+        "AuditAgent \u2014 Immutable audit trail",
+        "drift timeline",
+        "compliance reports"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/crosssync-orderhub",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + enterprise setup",
+      "status": "built",
+      "updated_at": "2026-07-19T09:10:53+00:00",
+      "key_features": [
+        "Real-time cross-system order reconciliation",
+        "7 specialized LangGraph agents",
+        "Order-to-Cash orchestration",
+        "Multi-channel order ingestion (EDI/API/Email)",
+        "Inventory ATP/CTP engine",
+        "Carrier invoice reconciliation",
+        "Immutable audit trail with TimescaleDB"
       ]
     }
   ]
