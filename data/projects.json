@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T09:10:54",
-  "total_projects": 48,
+  "generated_at": "2026-07-19T16:45:55",
+  "total_projects": 49,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1759,6 +1759,49 @@
         "Inventory ATP/CTP engine",
         "Carrier invoice reconciliation",
         "Immutable audit trail with TimescaleDB"
+      ]
+    },
+    {
+      "id": "esim-lifecycle-orchestrator",
+      "name": "eSIM Lifecycle Orchestrator",
+      "description": "Multi-agent LangGraph platform for enterprise SIM/eSIM lifecycle management across carriers with full audit trail and compliance",
+      "category": "productivity",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "eSIM",
+        "SIM",
+        "lifecycle",
+        "IoT",
+        "LangGraph",
+        "multi-agent",
+        "telecom",
+        "enterprise"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "DeviceRegistryAgent \u2014 Device onboarding validation metadata enrichment carrier assignment",
+        "ProvisioningAgent \u2014 SIM provisioning eSIM profile generation SM-DP+ integration activation code generation",
+        "LifecycleOrchestratorAgent \u2014 State machine orchestration for SIM/eSIM lifecycle transitions with validation",
+        "ConnectivityMonitorAgent \u2014 Real-time connectivity monitoring usage tracking anomaly detection alerting",
+        "FOTAOrchestratorAgent \u2014 Firmware-over-the-air orchestration device compatibility rollout scheduling rollback",
+        "ComplianceAuditAgent \u2014 Audit trail generation regulatory compliance GDPR SOC2 data retention reporting",
+        "CarrierIntegrationAgent \u2014 Multi-carrier API abstraction rate limiting failover webhook normalization"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/esim-lifecycle-orchestrator",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + enterprise setup",
+      "status": "built",
+      "updated_at": "2026-07-19T16:45:54+00:00",
+      "key_features": [
+        "Multi-carrier SIM/eSIM lifecycle orchestration",
+        "7 specialized LangGraph agents with state machines",
+        "Full audit trail and compliance reporting",
+        "FOTA deployment orchestration",
+        "Real-time connectivity monitoring",
+        "Docker-based deployment with observability",
+        "OpenAPI specification and React dashboard"
       ]
     }
   ]
