@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T16:45:55",
+  "generated_at": "2026-07-19T16:52:42",
   "total_projects": 49,
   "projects": [
     {
@@ -1764,28 +1764,27 @@
     {
       "id": "esim-lifecycle-orchestrator",
       "name": "eSIM Lifecycle Orchestrator",
-      "description": "Multi-agent LangGraph platform for enterprise SIM/eSIM lifecycle management across carriers with full audit trail and compliance",
+      "description": "Multi-carrier eSIM lifecycle automation powered by 7 LangGraph agents. Device registry, provisioning, lifecycle orchestration, connectivity monitoring, FOTA updates, compliance auditing, carrier integration.",
       "category": "productivity",
-      "icon": "\ud83e\udd16",
+      "icon": "\ud83d\udce1",
       "tags": [
-        "eSIM",
-        "SIM",
+        "esim",
+        "sim",
+        "iot",
         "lifecycle",
-        "IoT",
-        "LangGraph",
-        "multi-agent",
-        "telecom",
-        "enterprise"
+        "fota",
+        "carrier",
+        "telecom"
       ],
       "agents": 7,
       "agents_list": [
-        "DeviceRegistryAgent \u2014 Device onboarding validation metadata enrichment carrier assignment",
-        "ProvisioningAgent \u2014 SIM provisioning eSIM profile generation SM-DP+ integration activation code generation",
-        "LifecycleOrchestratorAgent \u2014 State machine orchestration for SIM/eSIM lifecycle transitions with validation",
-        "ConnectivityMonitorAgent \u2014 Real-time connectivity monitoring usage tracking anomaly detection alerting",
-        "FOTAOrchestratorAgent \u2014 Firmware-over-the-air orchestration device compatibility rollout scheduling rollback",
-        "ComplianceAuditAgent \u2014 Audit trail generation regulatory compliance GDPR SOC2 data retention reporting",
-        "CarrierIntegrationAgent \u2014 Multi-carrier API abstraction rate limiting failover webhook normalization"
+        "DeviceRegistryAgent \u2014 device onboarding & validation",
+        "ProvisioningAgent \u2014 SIM & eSIM profile management",
+        "LifecycleOrchestratorAgent \u2014 12-state machine orchestration",
+        "ConnectivityMonitorAgent \u2014 usage tracking & alerting",
+        "FOTAOrchestratorAgent \u2014 firmware rollout & rollback",
+        "ComplianceAuditAgent \u2014 audit trails & GDPR",
+        "CarrierIntegrationAgent \u2014 multi-carrier API abstraction"
       ],
       "github_url": "https://github.com/phanindraintelligenzit-afk/esim-lifecycle-orchestrator",
       "stars": 0,
@@ -1793,15 +1792,15 @@
       "language": "Python",
       "monetization": "Free repo + enterprise setup",
       "status": "built",
-      "updated_at": "2026-07-19T16:45:54+00:00",
+      "updated_at": "2026-07-19T16:52:41+00:00",
       "key_features": [
-        "Multi-carrier SIM/eSIM lifecycle orchestration",
-        "7 specialized LangGraph agents with state machines",
-        "Full audit trail and compliance reporting",
-        "FOTA deployment orchestration",
-        "Real-time connectivity monitoring",
-        "Docker-based deployment with observability",
-        "OpenAPI specification and React dashboard"
+        "Multi-carrier SIM/eSIM lifecycle",
+        "7 LangGraph agents with state machines",
+        "12-state lifecycle orchestration",
+        "FOTA orchestration with rollback",
+        "Audit trail & compliance reporting",
+        "Docker Compose stack",
+        "Prometheus/Grafana monitoring"
       ]
     }
   ]
