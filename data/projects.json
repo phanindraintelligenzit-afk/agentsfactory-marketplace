@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T16:52:42",
-  "total_projects": 49,
+  "generated_at": "2026-07-22T06:04:44",
+  "total_projects": 50,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1801,6 +1801,58 @@
         "Audit trail & compliance reporting",
         "Docker Compose stack",
         "Prometheus/Grafana monitoring"
+      ]
+    },
+    {
+      "id": "sim-orchestrator",
+      "name": "SIM Orchestrator",
+      "description": "Multi-Carrier SIM/eSIM Orchestration Platform - Unified platform for provisioning, lifecycle management, billing, and policy-driven automation across 400+ carriers via SGP.32/RSP",
+      "category": "productivity",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "esim",
+        "sim",
+        "iot",
+        "telecom",
+        "connectivity",
+        "sgp32",
+        "rsp",
+        "orchestration"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "Provisioner \u2014 SGP.32/RSP profile provisioning across SM-DP+ endpoints",
+        "LifecycleManager \u2014 SIM state machine & bulk operations",
+        "CarrierAggregator \u2014 Normalize 400+ carrier APIs",
+        "rate-limiting & caching",
+        "BillingEngine \u2014 CDR ingestion",
+        "cost computation & anomaly detection",
+        "PolicyEngine \u2014 DSL rule evaluation for failover/throttling/scheduling",
+        "SecurityGuard \u2014 IMEI lock",
+        "SIM firewall",
+        "private APN",
+        "fraud scoring",
+        "ObservabilityAgent \u2014 Health checks",
+        "metrics",
+        "traces",
+        "SLA reporting"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/sim-orchestrator",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + enterprise setup",
+      "status": "built",
+      "updated_at": "2026-07-22T06:04:43+00:00",
+      "key_features": [
+        "Unified SIM/eSIM lifecycle management",
+        "Multi-carrier provisioning via SGP.32/RSP",
+        "Real-time usage & billing analytics",
+        "Policy-driven connectivity automation",
+        "Security: IMEI lock",
+        "SIM firewall",
+        "fraud detection",
+        "Open-source core with enterprise support"
       ]
     }
   ]
