@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T06:04:44",
-  "total_projects": 50,
+  "generated_at": "2026-07-23T06:03:38",
+  "total_projects": 51,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1853,6 +1853,48 @@
         "SIM firewall",
         "fraud detection",
         "Open-source core with enterprise support"
+      ]
+    },
+    {
+      "id": "esim-orchestrator-lite",
+      "name": "eSIM Orchestrator Lite",
+      "description": "Open-source eSIM IoT Remote Manager (eIM) implementing GSMA SGP.32 for multi-SM-DP+ profile orchestration, policy-driven switching, and zero-touch device onboarding",
+      "category": "productivity",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "esim",
+        "sgp32",
+        "iot",
+        "connectivity",
+        "telecom",
+        "orchestration",
+        "compliance"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "ProfileOrchestrator \u2014 Orchestrates eSIM profile assignment and downloads",
+        "SMDPConnector \u2014 Abstracts multi-vendor SM-DP+ communications",
+        "DeviceLifecycle \u2014 Manages device state machine",
+        "PolicyEngine \u2014 Evaluates profile switching rules",
+        "ComplianceMonitor \u2014 Monitors regulatory compliance",
+        "CostOptimizer \u2014 Analyzes connectivity costs",
+        "NotificationAgent \u2014 Delivers alerts and webhooks"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/esim-orchestrator-lite",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + enterprise setup/support",
+      "status": "built",
+      "updated_at": "2026-07-23T06:03:37+00:00",
+      "key_features": [
+        "Multi-SM-DP+ orchestration",
+        "SGP.32 compliant",
+        "Policy-driven profile switching",
+        "Permanent roaming compliance",
+        "Real-time telemetry",
+        "Unified billing view",
+        "Zero-touch onboarding"
       ]
     }
   ]
