@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T06:05:03",
-  "total_projects": 51,
+  "generated_at": "2026-07-24T06:07:11",
+  "total_projects": 52,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1895,6 +1895,48 @@
         "Compliance monitoring",
         "Real-time telemetry",
         "Cost optimization"
+      ]
+    },
+    {
+      "id": "simfleet",
+      "name": "SIMFleet - Multi-Carrier SIM Orchestration",
+      "description": "Unified control plane for provisioning, monitoring, and orchestrating eSIM/SIM fleets across 50+ carriers with SGP.32 support",
+      "category": "connectivity",
+      "icon": "\ud83d\udcf6",
+      "tags": [
+        "iot",
+        "connectivity",
+        "esim",
+        "sim",
+        "fleet-management",
+        "telecom",
+        "sgp32"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "ProvisionAgent",
+        "MonitorAgent",
+        "OptimizeAgent",
+        "ComplianceAgent",
+        "FailoverAgent",
+        "BillingAgent",
+        "SGP32Agent"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/simfleet",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + enterprise setup",
+      "status": "built",
+      "updated_at": "2026-07-24T06:07:10+00:00",
+      "key_features": [
+        "Multi-carrier orchestration",
+        "SGP.32 eSIM management",
+        "Cost optimization",
+        "Automated failover",
+        "Regulatory compliance",
+        "Unified billing",
+        "Real-time monitoring"
       ]
     }
   ]
