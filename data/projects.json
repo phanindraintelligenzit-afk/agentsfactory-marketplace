@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T03:42:47",
-  "total_projects": 53,
+  "generated_at": "2026-07-25T06:32:03",
+  "total_projects": 54,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1986,6 +1986,49 @@
         "Docker Compose production stack",
         "CLI & REST API interfaces",
         "Audit trail & compliance reporting"
+      ]
+    },
+    {
+      "id": "compliance-copilot",
+      "name": "Compliance Copilot",
+      "description": "Open-source SOC2/ISO27001 compliance automation platform \u2014 multi-agent system alternative to Vanta/Drata/Secureframe. 7 LangGraph agents for evidence collection, control mapping, gap analysis, policy generation, risk assessment, and audit packaging.",
+      "category": "Security & Compliance",
+      "icon": "\ud83d\udee1\ufe0f",
+      "tags": [
+        "soc2",
+        "iso27001",
+        "compliance",
+        "grc",
+        "security",
+        "audit",
+        "langgraph",
+        "multi-agent"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "IntegrationOrchestratorAgent \u2014 50+ cloud/SaaS connectors with credential rotation & rate limiting",
+        "EvidenceCollectorAgent \u2014 Automated evidence gathering from AWS/GCP/Azure/GitHub/Okta APIs",
+        "ControlMapperAgent \u2014 SOC2 CC1-CC9 & ISO27001 A.5-A.18 control mapping with cross-framework support",
+        "GapAnalyzerAgent \u2014 Compliance gap detection with risk-prioritized remediation plans",
+        "RiskAssessorAgent \u2014 ISO 27005/NIST 800-30 risk quantification with asset inventory & threat modeling",
+        "PolicyGeneratorAgent \u2014 Auto-generate auditor-ready policies from controls with version control",
+        "AuditPackagerAgent \u2014 Generate auditor-ready evidence bundles (ZIP/JSON/CSV) with narrative reports"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/compliance-copilot",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free self-hosted repo + ,500 hosted setup + 00/mo auditor network",
+      "status": "built",
+      "updated_at": "2026-07-25T06:32:01+00:00",
+      "key_features": [
+        "50+ cloud integrations",
+        "7 specialized agents",
+        "real-time dashboard",
+        "auditor portal",
+        "policy versioning",
+        "risk register",
+        "evidence automation"
       ]
     }
   ]
