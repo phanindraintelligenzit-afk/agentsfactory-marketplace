@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T06:07:11",
-  "total_projects": 52,
+  "generated_at": "2026-07-25T03:42:47",
+  "total_projects": 53,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -1937,6 +1937,55 @@
         "Regulatory compliance",
         "Unified billing",
         "Real-time monitoring"
+      ]
+    },
+    {
+      "id": "sap-salesforce-identity-ops-agent",
+      "name": "SAP/Salesforce Identity & Access Ops Agent",
+      "description": "Enterprise LangGraph-powered agent for SAP and Salesforce managed services operations. Automates password reset, user provisioning (JML), GRC access certification, and AI ticket triage across SAP ECC/S4HANA and Salesforce CRM. Runs with Ollama local LLM in your VPC \u2014 zero data exfiltration. Built with Groovy, Ruby, LangGraph, and enterprise-grade security.",
+      "category": "enterprise",
+      "icon": "\ud83c\udfe2",
+      "tags": [
+        "sap",
+        "salesforce",
+        "identity-access",
+        "langgraph",
+        "automation",
+        "grc",
+        "managed-services",
+        "enterprise"
+      ],
+      "agents": 4,
+      "agents_list": [
+        "Password Reset Agent \u2014 Handles SAP & Salesforce password reset",
+        "user unlock",
+        "and notification in under 15 seconds",
+        "JML Provisioning Agent \u2014 End-to-end joiner/mover/leaver lifecycle with approvals",
+        "provisioning",
+        "and rollback on failure",
+        "GRC Access Certification Agent \u2014 Quarterly access recertification with automated reviewer workflows and entitlement revocation",
+        "Ticket Triage Agent \u2014 AI-powered ticket classification",
+        "prioritization",
+        "and routing using local LLM NLP"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/SAP-Salesforce-Identity-and-Access-Ops-Agent",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
+      "status": "built",
+      "updated_at": "2026-07-25T03:42:46+00:00",
+      "key_features": [
+        "Automated SAP & Salesforce password reset",
+        "Dual-system user provisioning (JML)",
+        "GRC access certification automation",
+        "AI ticket triage with local LLM",
+        "LDAP/SSO integration",
+        "Slack/Teams/Email notifications",
+        "VPC-deployed zero data exfiltration",
+        "Docker Compose production stack",
+        "CLI & REST API interfaces",
+        "Audit trail & compliance reporting"
       ]
     }
   ]
