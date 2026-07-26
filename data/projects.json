@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T06:32:03",
-  "total_projects": 54,
+  "generated_at": "2026-07-26T03:45:26",
+  "total_projects": 55,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -2030,6 +2030,23 @@
         "risk register",
         "evidence automation"
       ]
+    },
+    {
+      "id": "sap-iam-ops-agent",
+      "name": "SAP IAM Ops Agent",
+      "description": "Enterprise Identity & Access Management Agent for SAP and Salesforce managed services. Automates password reset orchestration, user provisioning/deprovisioning, access certification (SOX/GDPR), Segregation of Duties conflict detection, and GRC compliance reporting. Built on LangGraph with local Ollama LLM, Groovy SAP scripts, Ruby workflow DSL, and JS webhook handlers. VPC-only architecture with LDAP/SSO integration \u2014 no external dependencies.",
+      "category": "enterprise",
+      "icon": "\ud83c\udfe2",
+      "tags": [],
+      "agents": 6,
+      "agents_list": [],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/sap-iam-ops-agent",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
+      "status": "built",
+      "updated_at": "2026-07-26T03:45:25+00:00"
     }
   ]
 }
