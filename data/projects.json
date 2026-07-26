@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T03:45:26",
-  "total_projects": 55,
+  "generated_at": "2026-07-26T06:31:10",
+  "total_projects": 56,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -2047,6 +2047,57 @@
       "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
       "status": "built",
       "updated_at": "2026-07-26T03:45:25+00:00"
+    },
+    {
+      "id": "trustforge",
+      "name": "TrustForge",
+      "description": "Open-source Trust Center & Security Questionnaire Automation Platform \u2014 Multi-agent AI system replacing SafeBase/Conveyor (0K-100K/yr). 7 LangGraph agents for document ingestion, NDA workflows, AI questionnaire responses, trust center publishing, access controls, compliance integrations, and analytics.",
+      "category": "Security & Compliance",
+      "icon": "\ud83d\udee1\ufe0f",
+      "tags": [
+        "trust-center",
+        "security-questionnaire",
+        "soc2",
+        "compliance-automation",
+        "ai-agents",
+        "langgraph",
+        "fastapi",
+        "nextjs"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "DocumentIngestionAgent \u2014 Parse and index security documents (SOC2",
+        "policies",
+        "certs) with RAG",
+        "NDAWorkflowAgent \u2014 Manage NDA requests",
+        "e-signatures",
+        "expiration",
+        "reminders",
+        "QuestionnaireResponseAgent \u2014 AI-powered security questionnaire responses with citations",
+        "TrustCenterPublisherAgent \u2014 Generate public trust center pages with custom domains",
+        "AccessControlAgent \u2014 Gate document access (public/NDA-gated/customer-only)",
+        "IntegrationSyncAgent \u2014 Sync with Vanta/Drata/Comply for controls and evidence",
+        "AnalyticsReportingAgent \u2014 Track trust center views",
+        "downloads",
+        "deal velocity impact"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/trustforge",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free self-hosted (Apache 2.0) + Managed cloud K-20K/yr vs 0K-100K/yr SaaS",
+      "status": "built",
+      "updated_at": "2026-07-26T06:31:09+00:00",
+      "key_features": [
+        "AI questionnaire responses with citations",
+        "Automated NDA workflows with DocuSign",
+        "Public trust center with custom domain",
+        "Vanta/Drata/Comply bi-directional sync",
+        "RBAC document access controls",
+        "Deal velocity analytics dashboard",
+        "Self-hosted data sovereignty",
+        "Apache 2.0 license"
+      ]
     }
   ]
 }
