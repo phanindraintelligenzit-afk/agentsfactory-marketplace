@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T06:31:10",
+  "generated_at": "2026-07-27T06:31:58",
   "total_projects": 56,
   "projects": [
     {
@@ -661,40 +661,60 @@
     {
       "id": "opencomply",
       "name": "OpenComply",
-      "description": "Open-source SOC 2 / GRC compliance automation platform -- a multi-agent alternative to Vanta, Drata, and Secureframe that automates evidence collection, control mapping, risk assessment, and audit preparation",
-      "category": "security",
-      "icon": "shield",
+      "description": "Open-source compliance automation alternative to Vanta/Drata/Secureframe \u2014 multi-agent evidence collection, framework mapping, and audit-ready reports",
+      "category": "Security & Compliance",
+      "icon": "\ud83d\udee1\ufe0f",
       "tags": [
         "compliance",
         "soc2",
+        "iso27001",
+        "hipaa",
+        "gdpr",
+        "pci-dss",
         "grc",
-        "security",
-        "audit",
-        "open-source",
-        "multi-agent"
+        "audit-automation",
+        "evidence-collection",
+        "policy-as-code"
       ],
-      "agents": 5,
+      "agents": 7,
       "agents_list": [
-        "EvidenceCollectorAgent \u2014 Automates cloud infrastructure evidence collection from AWS GCP GitHub and Docker",
-        "ControlMapperAgent \u2014 Maps raw evidence to SOC 2 ISO 27001 and PCI control frameworks",
-        "RiskAssessorAgent \u2014 Identifies compliance gaps with automated risk severity scoring",
-        "AuditorSimulatorAgent \u2014 Runs pre-audit simulations to find gaps before real auditor review",
-        "ReportGeneratorAgent \u2014 Generates PDF reports executive summaries and audit-ready packages"
+        "EvidenceCollectorAgent \u2014 Continuous evidence collection from cloud/SaaS/infrastructure",
+        "FrameworkMapperAgent \u2014 Maps evidence to SOC2/ISO27001/HIPAA/GDPR/PCI DSS controls",
+        "PolicyEngineAgent \u2014 OPA/Rego policy evaluation with drift detection",
+        "AuditPackagerAgent \u2014 Generates SOC2/ISO27001/HIPAA/PCI audit-ready packages",
+        "RiskManagerAgent \u2014 Continuous risk assessment with FAIR-lite scoring",
+        "ContinuousMonitorAgent \u2014 Real-time drift detection and auto-remediation",
+        "TrustCenterAgent \u2014 Public/private trust center with NDA-gated doc sharing"
       ],
       "github_url": "https://github.com/phanindraintelligenzit-afk/opencomply",
       "stars": 0,
       "forks": 0,
       "language": "Python",
-      "monetization": "Free open-source repo + 2000-5000 setup and 500-1000 per month for enterprise on-prem deployment with priority support",
+      "monetization": "Free self-hosted + setup; Cloud hosted: 99/mo (startup), ,999/mo (growth), ,999/mo (enterprise); Audit partner marketplace: 15% rev share; Professional services: 50/hr",
       "status": "built",
-      "updated_at": "2026-07-08T03:49:28+00:00",
+      "updated_at": "2026-07-27T06:31:57+00:00",
       "key_features": [
-        "Multi-framework support SOC 2 ISO 27001 PCI DSS",
-        "Five specialized AI compliance agents working in concert",
-        "Automated evidence collection from cloud and CI/CD infrastructure",
-        "Real-time compliance dashboard with live control status",
-        "Pre-audit simulations that catch gaps before the real auditor",
-        "PDF report generation for executive summaries and audit packages"
+        "7 LangGraph agents",
+        "5 LangGraph workflows",
+        "5 native integrations (AWS",
+        "GitHub",
+        "Okta",
+        "Jira",
+        "Slack)",
+        "7 frameworks (SOC2",
+        "ISO27001",
+        "HIPAA",
+        "GDPR",
+        "PCI DSS",
+        "NIST CSF",
+        "Custom)",
+        "OPA/Rego policy engine",
+        "Real-time WebSocket dashboard",
+        "Git-backed evidence history",
+        "Auditor portal export",
+        "Trust Center generator",
+        "Self-hosted first",
+        "Docker/K8s/Terraform deploy"
       ]
     },
     {
