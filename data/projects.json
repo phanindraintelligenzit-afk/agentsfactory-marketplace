@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T06:31:58",
-  "total_projects": 56,
+  "generated_at": "2026-07-28T03:37:03",
+  "total_projects": 57,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -2118,6 +2118,45 @@
         "Self-hosted data sovereignty",
         "Apache 2.0 license"
       ]
+    },
+    {
+      "id": "sap-sf-iag-agent",
+      "name": "SAP/Salesforce IAG-Agent",
+      "description": "Autonomous LangGraph-powered enterprise agent for SAP/Salesforce Identity & Access Governance. Automates the complete identity lifecycle: JML (Joiner/Mover/Leaver) provisioning, self-service password reset orchestration, automated User Access Review (UAR) certification campaigns, Segregation of Duties (SoD) conflict detection using SAP GRC risk matrix, and intelligent IAM ticket triage with SLA risk assessment. Runs on self-hosted Ollama LLM, VPC-only deployment with no public ingress. Enterprise connectors: SAP (Groovy/BAPI/JCo), Salesforce (Ruby/REST API), LDAP/SSO (Node.js/ldapjs).",
+      "category": "enterprise",
+      "icon": "\ud83c\udfe2",
+      "tags": [
+        "sap",
+        "salesforce",
+        "iam",
+        "identity",
+        "governance",
+        "langgraph",
+        "enterprise",
+        "llm",
+        "ollama",
+        "automation",
+        "access-certification",
+        "sod",
+        "grc"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "Router Node \u2014 Intent classification via Ollama LLM",
+        "JML Provisioning Node \u2014 Joiner/Mover/Leaver automation across SAP+Salesforce+LDAP",
+        "Password Reset Node \u2014 Self-service & assisted password reset orchestration",
+        "Access Certification Node \u2014 Automated UAR campaign management",
+        "SoD Detection Node \u2014 Segregation of Duties conflict detection",
+        "Ticket Triage Node \u2014 IAM ticket intelligence & routing",
+        "Notification Node \u2014 Multi-channel alerts (email/Slack/Teams/SMS)"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/sap-sf-iag-agent",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
+      "status": "built",
+      "updated_at": "2026-07-28T03:37:01+00:00"
     }
   ]
 }
