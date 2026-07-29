@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T03:37:03",
-  "total_projects": 57,
+  "generated_at": "2026-07-29T03:47:46",
+  "total_projects": 58,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -2157,6 +2157,23 @@
       "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
       "status": "built",
       "updated_at": "2026-07-28T03:37:01+00:00"
+    },
+    {
+      "id": "intelligenzit-iam-orchestrator",
+      "name": "IntelliGENZIT IAM Orchestrator",
+      "description": "LangGraph-powered enterprise agent that automates password resets, user provisioning, access certification, and emergency access across SAP and Salesforce ecosystems. Features: (1) Intent classification via local Ollama LLM, (2) SAP GRC adapter with Groovy scripting, (3) Salesforce SCIM 2.0 provisioning, (4) LDAP/AD account lifecycle management, (5) Access certification automation, (6) Emergency break-glass with approval chain, (7) Immutable audit trail, (8) VPC-only deployment architecture. Enterprise stack: LangGraph StateGraph, FastAPI, Ollama, Groovy/Ruby/JS, PostgreSQL, Redis.",
+      "category": "enterprise",
+      "icon": "\ud83c\udfe2",
+      "tags": [],
+      "agents": 1,
+      "agents_list": [],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/intelligenzit-iam-orchestrator",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
+      "status": "built",
+      "updated_at": "2026-07-29T03:47:45+00:00"
     }
   ]
 }
