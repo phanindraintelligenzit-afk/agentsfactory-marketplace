@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-29T03:47:46",
-  "total_projects": 58,
+  "generated_at": "2026-07-30T03:43:45",
+  "total_projects": 59,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -2174,6 +2174,23 @@
       "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
       "status": "built",
       "updated_at": "2026-07-29T03:47:45+00:00"
+    },
+    {
+      "id": "sap-sf-iam-ops-agent",
+      "name": "SAP-SF IAM Ops Agent",
+      "description": "Enterprise LangGraph-powered agent that automates SAP & Salesforce Identity and Access Management operations. Handles password resets, user provisioning (joiner/mover/leaver), GRC access certification, Segregation of Duties (SOD) violation analysis, and intelligent ticket triage \u2014 all running locally via Ollama LLM within your VPC. Built with LangGraph, Python/Groovy/Ruby/JS, and integrates with SAP RFC/BAPI, Salesforce REST API, LDAP, Microsoft Entra, and MIM.",
+      "category": "enterprise",
+      "icon": "\ud83c\udfe2",
+      "tags": [],
+      "agents": 3,
+      "agents_list": [],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/sap-sf-iam-ops-agent",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
+      "status": "built",
+      "updated_at": "2026-07-30T03:43:44+00:00"
     }
   ]
 }
