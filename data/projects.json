@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T03:43:45",
-  "total_projects": 59,
+  "generated_at": "2026-07-30T06:43:40",
+  "total_projects": 60,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -2191,6 +2191,50 @@
       "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
       "status": "built",
       "updated_at": "2026-07-30T03:43:44+00:00"
+    },
+    {
+      "id": "opengroc",
+      "name": "OpenGRC",
+      "description": "Open-source SOC2/GRC Compliance Automation platform \u2014 Alternative to Vanta, Drata, Secureframe. 7 LangGraph agents for policy-as-code, evidence-as-code, continuous control monitoring, risk management, auditor portal, vendor risk, and security training. Free self-hosted (AGPL-3.0), K/yr managed.",
+      "category": "Security & Compliance",
+      "icon": "\ud83d\udee1\ufe0f",
+      "tags": [
+        "grc",
+        "soc2",
+        "compliance",
+        "iso27001",
+        "gdpr",
+        "risk-management",
+        "audit-automation",
+        "evidence-collection",
+        "policy-as-code"
+      ],
+      "agents": 7,
+      "agents_list": [
+        "PolicyAgent \u2014 policy-as-code management",
+        "EvidenceAgent \u2014 automated evidence collection",
+        "ControlAgent \u2014 continuous control testing",
+        "RiskAgent \u2014 risk register & quantification",
+        "AuditAgent \u2014 auditor portal & findings",
+        "VendorAgent \u2014 vendor risk management",
+        "TrainingAgent \u2014 security awareness training"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/opengroc",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free self-hosted (AGPL-3.0) + 99/mo managed cloud + enterprise custom + auditor marketplace 10% fee",
+      "status": "built",
+      "updated_at": "2026-07-30T06:43:38+00:00",
+      "key_features": [
+        "policy-as-code",
+        "evidence-as-code",
+        "continuous-monitoring",
+        "multi-framework",
+        "auditor-portal",
+        "vendor-risk",
+        "training-lms"
+      ]
     }
   ]
 }
