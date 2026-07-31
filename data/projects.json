@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T06:43:40",
-  "total_projects": 60,
+  "generated_at": "2026-07-31T03:45:06",
+  "total_projects": 61,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -2234,6 +2234,50 @@
         "auditor-portal",
         "vendor-risk",
         "training-lms"
+      ]
+    },
+    {
+      "id": "sap-idm-bridge-agent",
+      "name": "SAP-IDM Bridge Agent",
+      "description": "IntelliGENZIT's enterprise LangGraph agent automating identity lifecycle management across SAP GRC, LDAP/Active Directory, and ServiceNow. Handles password self-service reset, user provisioning/deprovisioning (joiner/mover/leaver), access certification campaigns, and SoD remediation \u2014 all with local Ollama LLM inference inside a VPC. Zero cloud dependencies.",
+      "category": "enterprise",
+      "icon": "\ud83c\udfe2",
+      "tags": [
+        "SAP",
+        "LDAP",
+        "Salesforce",
+        "GRC",
+        "identity-management",
+        "langgraph",
+        "enterprise",
+        "VPC",
+        "ollama"
+      ],
+      "agents": 4,
+      "agents_list": [
+        "Password Reset Agent \u2014 Self-service password reset with LDAP sync and approval workflows",
+        "User Provisioning Agent \u2014 Automated joiner/mover/leaver provisioning across SAP+AD+ServiceNow",
+        "Access Certifier Agent \u2014 Quarterly access certification campaign automation with sign-off tracking",
+        "Audit Trail Agent \u2014 Structured immutable audit logging for GRC compliance evidence"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/sap-idm-bridge-agent",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
+      "status": "built",
+      "updated_at": "2026-07-31T03:45:05+00:00",
+      "key_features": [
+        "LangGraph state machine with 10 nodes and conditional routing",
+        "Self-service password reset with LDAP/AD integration",
+        "Automated user provisioning (joiner) and deprovisioning (leaver)",
+        "Quarterly access certification campaign orchestration",
+        "Approval workflow engine (auto/manager/dual)",
+        "Structured audit trail for SOC2/ISO27001 compliance",
+        "VPC-only architecture \u2014 local Ollama LLM",
+        "no cloud APIs",
+        "Ruby helper scripts and Groovy SAP mock included",
+        "36/36 passing test suite"
       ]
     }
   ]
