@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T03:45:06",
-  "total_projects": 61,
+  "generated_at": "2026-08-02T08:04:34",
+  "total_projects": 62,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -2279,6 +2279,23 @@
         "Ruby helper scripts and Groovy SAP mock included",
         "36/36 passing test suite"
       ]
+    },
+    {
+      "id": "sap-sf-accessops-copilot",
+      "name": "SAP/Salesforce AccessOps Copilot",
+      "description": "VPC-only enterprise operations agent for SAP GRC/IDM and Salesforce managed services: ticket triage, access request planning, password-reset workflow planning, and access certification campaigns with LangGraph-style orchestration, local Ollama support, LDAP/SSO interfaces, approval gates, dry-run defaults, and audit logging.",
+      "category": "enterprise",
+      "icon": "\ud83c\udfe2",
+      "tags": [],
+      "agents": 1,
+      "agents_list": [],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/sap-sf-accessops-copilot",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
+      "status": "built",
+      "updated_at": "2026-08-02T08:04:33+00:00"
     }
   ]
 }
