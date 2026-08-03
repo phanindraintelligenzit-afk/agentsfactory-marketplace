@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T03:46:39",
-  "total_projects": 63,
+  "generated_at": "2026-08-03T06:10:48",
+  "total_projects": 64,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -2313,6 +2313,42 @@
       "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
       "status": "built",
       "updated_at": "2026-08-03T03:46:39+00:00"
+    },
+    {
+      "id": "opencompliance-agents",
+      "name": "OpenCompliance Agents",
+      "description": "Open-source Vanta alternative \u2014 multi-agent system for continuously collecting security evidence, mapping controls, finding compliance gaps, and producing audit-ready reports.",
+      "category": "Security & Compliance",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "security",
+        "compliance",
+        "soc2",
+        "grc",
+        "open-source",
+        "multi-agent"
+      ],
+      "agents": 6,
+      "agents_list": [
+        "EvidenceCollector \u2014 Collects and validates evidence",
+        "ControlMapper \u2014 Maps evidence to controls",
+        "GapAnalyst \u2014 Finds coverage gaps",
+        "PolicyReviewer \u2014 Reviews policy readiness",
+        "RiskPrioritizer \u2014 Ranks remediation work",
+        "AuditReporter \u2014 Produces audit-ready reports"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/opencompliance-agents",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + setup",
+      "status": "built",
+      "updated_at": "2026-08-03T06:10:47+00:00",
+      "key_features": [
+        "Evidence collection and control mapping",
+        "Explainable six-agent review pipeline",
+        "FastAPI dashboard and audit exports"
+      ]
     }
   ]
 }
