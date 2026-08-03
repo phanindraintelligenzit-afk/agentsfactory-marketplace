@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T08:04:34",
-  "total_projects": 62,
+  "generated_at": "2026-08-03T03:46:39",
+  "total_projects": 63,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -2296,6 +2296,23 @@
       "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
       "status": "built",
       "updated_at": "2026-08-02T08:04:33+00:00"
+    },
+    {
+      "id": "sap-sf-access-triage-agent",
+      "name": "SAP/Salesforce Access Ticket Triage & Resolver Agent",
+      "description": "VPC-only, internal-first managed-services agent for SAP and Salesforce access-ticket triage: normalizes tickets, classifies domain and issue, extracts missing fields, recommends resolver groups and approval-aware runbooks, and records an auditable human-review decision. Uses LangGraph, Ollama local LLM, JavaScript/TypeScript, Groovy, and Ruby adapters. No autonomous access changes.",
+      "category": "enterprise",
+      "icon": "\ud83c\udfe2",
+      "tags": [],
+      "agents": 1,
+      "agents_list": [],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/sap-sf-access-triage-agent",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
+      "status": "built",
+      "updated_at": "2026-08-03T03:46:39+00:00"
     }
   ]
 }
