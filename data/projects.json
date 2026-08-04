@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T06:10:48",
-  "total_projects": 64,
+  "generated_at": "2026-08-04T03:33:35",
+  "total_projects": 65,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -2349,6 +2349,23 @@
         "Explainable six-agent review pipeline",
         "FastAPI dashboard and audit exports"
       ]
+    },
+    {
+      "id": "enterprise-access-incident-control-tower",
+      "name": "Enterprise Access & Incident Control Tower",
+      "description": "VPC-deployed SAP and Salesforce managed-services agent for ticket triage, access requests, human-approved provisioning, access certification, policy guardrails, audit events, LDAP/SSO adapters, and Ollama-local workflow assistance.",
+      "category": "enterprise",
+      "icon": "\ud83c\udfe2",
+      "tags": [],
+      "agents": 1,
+      "agents_list": [],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/enterprise-access-incident-control-tower",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
+      "status": "built",
+      "updated_at": "2026-08-04T03:33:34+00:00"
     }
   ]
 }
