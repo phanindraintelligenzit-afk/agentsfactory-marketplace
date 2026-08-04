@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T03:33:35",
-  "total_projects": 65,
+  "generated_at": "2026-08-04T05:46:47",
+  "total_projects": 66,
   "projects": [
     {
       "id": "ai-soc2-compliance-agent",
@@ -2366,6 +2366,45 @@
       "monetization": "Enterprise \u2014 Contact Us for Demo and Deployment",
       "status": "built",
       "updated_at": "2026-08-04T03:33:34+00:00"
+    },
+    {
+      "id": "controlplane-agents",
+      "name": "Open-source Security & Compliance alternative to Vanta \u2014 multi-agent system",
+      "description": "Self-hosted SOC 2 readiness workspace that collects evidence, maps controls, checks freshness, and produces an auditable readiness view with six deterministic agents.",
+      "category": "security",
+      "icon": "\ud83e\udd16",
+      "tags": [
+        "security",
+        "compliance",
+        "soc2",
+        "grc",
+        "langgraph",
+        "fastapi",
+        "open-source"
+      ],
+      "agents": 6,
+      "agents_list": [
+        "Evidence Collector \u2014 normalizes evidence inputs",
+        "Control Mapper \u2014 links evidence to controls",
+        "Freshness Monitor \u2014 flags stale or expiring evidence",
+        "Policy Reviewer \u2014 tracks policy coverage",
+        "Risk Analyst \u2014 prioritizes control gaps",
+        "Report Builder \u2014 generates readiness summaries"
+      ],
+      "github_url": "https://github.com/phanindraintelligenzit-afk/controlplane-agents",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "monetization": "Free repo + setup",
+      "status": "built",
+      "updated_at": "2026-08-04T05:46:46+00:00",
+      "key_features": [
+        "Self-hosted SQLite evidence ledger",
+        "Six-agent control workflow",
+        "Readiness score and risk findings",
+        "Docker quickstart",
+        "REST API and dashboard"
+      ]
     }
   ]
 }
